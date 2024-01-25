@@ -1,9 +1,9 @@
 # l4ndl0s1.github.io
 MusicaFemina Stadtspaziergänge  (work in progress) <br>
-WebApp Demo Version
-für  den Musica Femina Verein
-Konzept von Irene Suchy
-URL: https://l4ndl0s1.github.io
+WebApp Demo Version <br>
+für  den Musica Femina Verein <br>
+Konzept von Irene Suchy <br>
+URL: https://l4ndl0s1.github.io <br>
 
 
 
