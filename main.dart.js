@@ -6265,7 +6265,7 @@ j=1}else j=3
 q.a=k+n
 s+=j
 r=s
-p=!0}else if(o<127&&(B.El[o>>>4]&1<<(o&15))!==0){if(p&&65<=o&&90>=o){if(q==null)q=new A.ci("")
+p=!0}else if(o<127&&(B.Ek[o>>>4]&1<<(o&15))!==0){if(p&&65<=o&&90>=o){if(q==null)q=new A.ci("")
 if(r<s){q.a+=B.d.a0(a,r,s)
 r=s}p=!1}++s}else if(o<=93&&(B.lm[o>>>4]&1<<(o&15))!==0)A.uH(a,s,"Invalid character")
 else{if((o&64512)===55296&&s+1<c){i=a.charCodeAt(s+1)
@@ -18805,7 +18805,7 @@ q=b.Q
 if(a.Q!==q)return q?-1:1
 return 0},
 aFl(a,b){var s=A.a7(b).h("af<1,dW>")
-return A.aEH(!0,A.a6(new A.af(b,new A.a_t(),s),!0,s.h("an.E")),a,B.Ey,!0,B.Bf,null)},
+return A.aEH(!0,A.a6(new A.af(b,new A.a_t(),s),!0,s.h("an.E")),a,B.Ex,!0,B.Bf,null)},
 aFj(a){a.bQ()
 a.b6(A.azp())},
 Hs(a){var s=a.a,r=s instanceof A.nL?s:null
@@ -19376,7 +19376,7 @@ _.Q=!0
 _.at=_.as=!1
 _.$ti=d},
 auT(a,b){var s
-if(a===b)return new A.FR(B.Ev)
+if(a===b)return new A.FR(B.Eu)
 s=A.a([],t.fJ)
 a.l8(new A.a3m(b,A.bd("debugDidFindAncestor"),A.aB(t.n),s))
 return new A.FR(s)},
@@ -22473,7 +22473,7 @@ a1=A.pT(!1,a1)
 l=A.fP(e,!1,l)
 h=A.a72(!0,t.U2)
 g=B.dW.xp()
-f=new A.WK(B.Ew,B.Ex)
+f=new A.WK(B.Ev,B.Ew)
 h=new A.WL(g,new A.RI(A.F(d,t.WK)),A.F(d,t.IN),f,c,b,a,a0,a2,a4,a5,a3,s,r,q,p,o,n,m,k,j,i,a1,l,h)
 h.VQ(!0,!1,e,e,!0,!0,!0,e)
 return h},
@@ -24352,11 +24352,11 @@ aDy(a){if(a>0&&a<=5)return B.CX[a-1]
 else throw A.c(A.bk("No audio path found for the given index",null))},
 aDH(a){if(a>0&&a<=5)return B.DB[a-1]
 else return"Index not found"},
-aDF(a){if(a>0&&a<=5)return B.EP[a-1]
+aDF(a){if(a>0&&a<=5)return B.EO[a-1]
 else return"Index not found"},
 aDG(a){if(a>0&&a<=5)return B.E2[a-1]
 else return"Index not found"},
-aDz(a){if(a<8)return B.Eh[a]
+aDz(a){if(a<8)return B.EP[a]
 else throw A.c(A.bk("No audio path found for the given index",null))},
 aJv(a){var s,r,q,p
 try{if(a<8){r=$.ax4[a]
@@ -24370,7 +24370,7 @@ aEG(a){var s,r
 try{if(a<8){s=B.DG[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aEE(a){var s,r
-try{if(a<8){s=B.EG[a]
+try{if(a<8){s=B.EF[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aEF(a){var s,r
 try{if(a<8){s=B.E0[a]
@@ -24392,7 +24392,7 @@ aJp(a){var s,r
 try{if(a<8){s=B.DC[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aJq(a){var s,r
-try{if(a<8){s=B.Ei[a]
+try{if(a<8){s=B.Eh[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aDA(a){if(a<8)return B.Dy[a]
 else throw A.c(A.bk("No audio path found for the given index",null))},
@@ -26472,7 +26472,7 @@ Qh(){var s=this.Q
 s===$&&A.b()
 return s},
 EL(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Et
+if(a<0||b<0)return B.Es
 s=this.a
 s===$&&A.b()
 s=s.a
@@ -29254,7 +29254,7 @@ if(r.e!==B.l4){r.e=B.l4
 r.J3()}}return r.c.a.RO(a)},
 J3(){var s,r
 for(s=this.r,r=0;r<s.length;++r)s[r].$1(this.e)},
-RN(a){if(B.b.u(B.Ej,a))return this.e===B.co
+RN(a){if(B.b.u(B.Ei,a))return this.e===B.co
 return!1}}
 A.a0_.prototype={
 $0(){return new A.dl(Date.now(),!1)},
@@ -30634,7 +30634,7 @@ n=A.fJ(r.i(s,"fontWeightIndex"))
 m=n!=null?A.aNI(n):"normal"
 l=A.ay5(r.i(s,"fontSize"))
 if(l==null)l=null
-q=new A.abF(new A.a_q(l,m,A.cn(r.i(s,"fontFamily")),B.EI[p],B.hn[o]))
+q=new A.abF(new A.a_q(l,m,A.cn(r.i(s,"fontFamily")),B.EH[p],B.hn[o]))
 break
 case"TextInput.clearClient":q=B.zu
 break
@@ -41807,7 +41807,7 @@ if(s==null)s=B.b8
 p=p.e
 o=r.ga0V()
 r.a.toString
-return new A.AZ(q,q,q,new A.ajW(),q,q,q,q,q,p,B.GX,q,q,q,B.Em,r.ga17(),"",q,B.Oy,s,q,o,q,q,B.li,!1,!1,!1,!1,r.ga0D(),!1,q,q,q,new A.nR(r,t.bT))},
+return new A.AZ(q,q,q,new A.ajW(),q,q,q,q,q,p,B.GX,q,q,q,B.El,r.ga17(),"",q,B.Oy,s,q,o,q,q,B.li,!1,!1,!1,!1,r.ga0D(),!1,q,q,q,new A.nR(r,t.bT))},
 H(a){var s,r=null,q=A.x1(!1,!1,this.X8(a),r,r,r,r,!0,r,r,r,new A.ajX(),r,r)
 this.a.toString
 s=this.d
@@ -49889,7 +49889,7 @@ Qj(a){var s=this.b,r=s.a.a.Qk(a.a4(0,s.gfS()))
 if(r==null||s.gfS().k(0,B.i))return r
 return new A.x9(r.a.dz(s.gfS()),r.b,r.c)},
 Bu(){var s,r,q=this.b,p=q.gfS()
-if(!isFinite(p.a)||!isFinite(p.b))return B.Ep
+if(!isFinite(p.a)||!isFinite(p.b))return B.Eo
 s=q.e
 if(s==null){s=q.a.a.Bu()
 q.e=s}if(p.k(0,B.i))r=s
@@ -56625,7 +56625,7 @@ break
 case 1:return A.p(q,r)}})
 return A.q($async$zz,r)},
 Zb(a,b){var s,r,q,p
-if(a===b)return B.Er
+if(a===b)return B.Eq
 if(a===B.cV&&b===B.cT)return B.Dz
 s=A.a([],t.QP)
 if(a==null)s.push(b)
@@ -61314,7 +61314,7 @@ A.dZ.prototype={
 k(a,b){if(b==null)return!1
 if(J.W(b)!==A.x(this))return!1
 return b instanceof A.dZ&&b.a===this.a&&b.d===this.d&&A.cO(null,null)},
-gt(a){return A.T(this.a,"MaterialIcons",null,this.d,A.bW(B.Es),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gt(a){return A.T(this.a,"MaterialIcons",null,this.d,A.bW(B.Er),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){return"IconData(U+"+B.d.jL(B.f.ii(this.a,16).toUpperCase(),5,"0")+")"}}
 A.nW.prototype={
 bT(a){return!this.w.k(0,a.w)},
@@ -62174,7 +62174,7 @@ c=g==null?(c.b.a.a.a&64)!==0:g
 g=s&&d
 b=s?d:b.ch
 if(b==null)b=B.i_
-f=new A.y6(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.GU(d),B.Eo)
+f=new A.y6(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.GU(d),B.En)
 if(!f.k(0,e.e))e.T(new A.akd(e,f))},
 MI(){this.qd()},
 MK(){if(this.d==null)this.qd()},
@@ -62524,7 +62524,7 @@ r.L(0,s.Pj(null,k))
 k.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.En[p]
+for(;!1;++p){o=B.Em[p]
 n=k.c
 n.toString
 n=o.BI(n)
@@ -67892,7 +67892,7 @@ p.v5()
 return s.am()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gzB(),p=0;p<s.length;s.length===r||(0,A.R)(s),++p)J.ati(s[p],q)
-o.b=B.Eq
+o.b=B.Ep
 o.y=!1
 o.dQ()},
 eA(a,b){return a.o3(b)},
@@ -70620,7 +70620,7 @@ r=p.R8
 r===$&&A.b()
 o=A.awR(B.A,r*0.017453292519943295,A.d2(B.V,o.c,B.a0),q)
 p.a.toString
-o=A.apY(A.d2(B.V,A.a([new A.K3(s,s,m,m,o,q),A.d2(B.V,B.Eu,B.a0)],t.p),B.a0),B.aH)
+o=A.apY(A.d2(B.V,A.a([new A.K3(s,s,m,m,o,q),A.d2(B.V,B.Et,B.a0)],t.p),B.a0),B.aH)
 if(n==null)n=B.kQ
 return new A.po(p,A.r1(B.bD,new A.yK(new A.ky(o,this.b,q,!1,q),p.gre(),p.gCM(),p.ga9k(),p.ga9A(),n,p.ok,q),p.gacl(),p.gacp(),p.gacr(),q,p.gact(),p.gacv()),q)},
 $S:460}
@@ -72001,7 +72001,7 @@ if(q!=null)r.a.fy.v(0,q)
 q=a.d
 if(q!=null)r.a.go.v(0,q)
 q=a.e
-if(q!=null)r.a.p4.v(0,B.EH[q.a])
+if(q!=null)r.a.p4.v(0,B.EG[q.a])
 q=a.f
 if(q!=null)r.a.R8.v(0,q!==B.iA)},
 $S:485}
@@ -80383,7 +80383,7 @@ B.Q=new A.MV()
 B.bN=new A.MW()
 B.dW=new A.acN()
 B.cO=new A.N2(0,0,0,0)
-B.Eo=A.a(s([]),A.ad("E<a__>"))
+B.En=A.a(s([]),A.ad("E<a__>"))
 B.Rn=new A.ad7()
 B.d3=new A.Ng()
 B.bO=new A.Nh()
@@ -80876,8 +80876,7 @@ B.iA=new A.A1(0,"none")
 B.iB=new A.A1(1,"all")
 B.Eg=A.a(s([B.iA,B.iB]),A.ad("E<A1>"))
 B.cs=A.a(s(["a","b","c","d"]),t.s)
-B.Eh=A.a(s(["assets/audio/demokratie_audio/odd_gymnasiumstrasse79.mp3","assets/audio/demokratie_audio/odd_strudlhofstiege.mp3","assets/audio/demokratie_audio/odd_oppolzergasse6.mp3","assets/audio/demokratie_audio/odd_grabentuchlauben11.mp3","assets/audio/demokratie_audio/odd_wallnerstrasse9.mp3","assets/audio/demokratie_audio/odd_drkarlrennerring1.mp3","assets/audio/demokratie_audio/odd_lothringerstrasse20.mp3","assets/audio/demokratie_audio/odd_karlsplatz.mp3"]),t.s)
-B.Ei=A.a(s(["Hier lebte die in Amstetten geborene Komponistin und Organistin Maria Francisca Fiederica Hofer (1894-1977). Sie war eingeladen und gef\xf6rdert von der Verlegerin und Gartenbauschul-Gr\xfcnderin Yella Hertzka. Maria Hofer studierte unter anderem bei Rudolf Dittrich, wirkte als Organistin im Wiener Stephansdom und im Dom zu Salzburg. Sie trat als Konzertpianistin, auch mit eigenen Werken, im Wiener Konzerthaus auf. Ihr Werk ist von ihrer katholischen Gl\xe4ubigkeit bestimmt wie von ihrer Virtuosit\xe4t. 1938 zog sie nach Kitzb\xfchel. Als Folge ihrer Mitarbeit in der von Yella Hertzka mitbegr\xfcndeten \u201eInternationalen Frauenliga f\xfcr Frieden und Freiheit in \xd6sterreich\u201c wurde sie mehrmals von der Gestapo verhaftet. Maria Hofer stand nach 1945 bis zu Hertzkas Tod 1948 mit ihr in engem Kontakt.","Hier wurde die Komponistin Lisa Maria Mayer 1894 geboren. Ihr Erfolg als Komponistin von \xfcber 50 Werken ist auch durch die Drucklegung bei der Universaledition dokumentiert. Als konvertierte J\xfcdin in einer Ehe mit dem Nichtjuden Josef Gaberle in Wien geduldet, war sie den Schikanen des NS-Regimes ausgesetzt, durfte weder unterrichten noch auftreten und \xfcberlebte mit schweren gesundheitlichen Beeintr\xe4chtigungen. Von 1945 bis 1948 war Lisa Maria Mayer (1894-1928) am Konservatorium der Stadt Wien angestellt. Der 1888 begr\xfcndete Club der Wiener Musikerinnen in Wien Alsergrund bot ihr zahlreiche Auftrittsm\xf6glichkeiten. Er wurde 1938 aufgel\xf6st.","Valerie Pick, verheiratete Vally Weigl (1894-1982) war eine der Absolventinnen dieser Schule, die einzige, an der eine Matura f\xfcr M\xe4dchen erlaubt war. Nach ihren Studien in Musikwissenschaft und Philosophie an der Universit\xe4t Wien nahm sie auch Kompositionsunterricht bei Karl Weigl, den sie 1921 heiratete. Sie fl\xfcchtete vor dem NS Regime in die USA, ihre Schwester K\xe4the Leichter \xfcberlebte den Holocaust nicht. Vally Weigls Verdienste sind nicht nur zahlreiche Kompositionen f\xfcr Stimme und kleinere Ensembles, sondern auch die Pionierarbeit in Musiktherapie, die sie begann, als sie selbst betroffen nach einer Schulterverletzung war.","Der Verlag, 1919 mit Hilfe von Robert Stolz gegr\xfcndet, bestand bis ins Jahr 1941. 1927 wurde hier, im Wiener Boh\xe8me Verlag, die erste und erfolgreichste Komposition der Hilda L\xf6we (1895-1976) ver\xf6ffentlicht, das Chanson Das alte Lied, das sie f\xfcr Raoul Aslan geschrieben und zu dem Fritz L\xf6hner den Text verfasst hatte. Auf Anraten des Verlags w\xe4hlte die Komponistin f\xfcr die Ver\xf6ffentlichung ein Pseudonym: Henry Love. Unter diesem Namen ver\xf6ffentlichte sie zahlreiche weitere Schlager und Chansons. Sie hatte an der Akademie f\xfcr Musik und darstellende Kunst, damals im Komplex des Wiener Konzerthauses, als Pianistin und Komponistin im Jahr 1914 mit vorz\xfcglichem Erfolg abgeschlossen. Im Wiener Konzerthaus sind zahlreiche Auftritte mit Kammermusik und Chansons dokumentiert.1934 heiratete Hilda Loewe den Wiener B\xfchnenbildner und Maler Joseph Otto Flatter, mit dem sie im selben Jahr nach Gro\xdfbritannien emigrierte.","Die T\xe4nzerin, S\xe4ngerin, Komponistin und Autorin Anita Bild, geborene Lelewer (1915-2012) maturierte am Gymnasium in der Rahlgasse. Nach ihrer Ballettausbildung am Neuen Wiener Konservatorium folgten Engagements an Theatern in Basel, Baden, Wien und Kairo sowie eine Kooperation mit dem Tenor Richard Tauber. Ihre Karriere als T\xe4nzerin wurde 1938 beendet. Sie fl\xfcchtete mit einem Domestic Permit 1939 nach England und konnte wieder als T\xe4nzerin, S\xe4ngerin und Schauspielerin arbeiten. Sie wirkte ab 1950 bei der BBC als Drehbuchautorin und als Leiterin des deutschen Senders. Sie starb 2012 in London.","Hier befand sich von Mitte der 20er Jahre bis zum Bau des Funkhauses die Sendeanlage von Radio Wien in einer ehemaligen Schule. Radio Wien sendete die Lieder der in der NS Zeit vertriebenen Komponistinnen, von Hilda L\xf6we aber auch von Harry Harald, Pseudonym von Hilda Geiringer. Diese Hilda Geiringer, geboren 1898, alias Harry Harald, ging 1938 ins Exil nach London und emigrierte 1940 weiter nach Pennsylvania, wo sie auch 1977 starb.","Camilla Frydan, eigentlich Camilla Herzl, Pseudonym Camilla Herzer (1887-1949), hatte Klavier, Harmonielehre und Komposition am Konservatorium der Gesellschaft der Musikfreunde studiert. Im Alter von f\xfcnf Jahren gab sie ihr erstes Konzert im Wiener Ehrbar-Saal. Sie wirkte als Dirigentin und S\xe4ngerin ihrer Werke, war Textdichterin und Co-Autorin des Prominenten Almanachs. Sie trat nicht nur im Etablissement Simpl auf, sondern auch im Kabarett Fledermaus, oft gemeinsam mit ihrem Schwager Egon Friedell, mit Peter Altenberg oder Alfred Polgar. Sie fl\xfcchtete 1938 ins Exil in die USA, wo sie 1945 einen eigenen Verlag gr\xfcndete.","Josefine Winter, Edle von Wigmar (1873-1943) war Malerin, Komponistin und Schriftstellerin. Nach privaten Studien wurde sie 1903 Studentin von Josef Bohuslav Foerster am Neuen Wiener Konservatorium. In erster Ehe wohnte sie hier mit Alfred Fr\xf6hlich von Feldau, in zweiter Ehe mit dem Dichter Josef von Winter. Sie komponierte vor allem Lieder. Josefine Winter von einer Sammelwohnung im zweiten Bezirk im Jahr 1942 ins KZ Theresienstadt deportiert und 1943 dort ermordet. Vertrieben aus ihrer Villa im W\xe4hringer Cottage vers\xe4umte sie die M\xf6glichkeit, die sie dank ihres Verm\xf6gens und ihres Netzwerkes gehabt h\xe4tte, ins Exil zu gehen. Sie z\xf6gerte zu lange und erlebte die Arisierung ihres Verm\xf6gens und die Deportation."]),t.s)
+B.Eh=A.a(s(["Hier lebte die in Amstetten geborene Komponistin und Organistin Maria Francisca Fiederica Hofer (1894-1977). Sie war eingeladen und gef\xf6rdert von der Verlegerin und Gartenbauschul-Gr\xfcnderin Yella Hertzka. Maria Hofer studierte unter anderem bei Rudolf Dittrich, wirkte als Organistin im Wiener Stephansdom und im Dom zu Salzburg. Sie trat als Konzertpianistin, auch mit eigenen Werken, im Wiener Konzerthaus auf. Ihr Werk ist von ihrer katholischen Gl\xe4ubigkeit bestimmt wie von ihrer Virtuosit\xe4t. 1938 zog sie nach Kitzb\xfchel. Als Folge ihrer Mitarbeit in der von Yella Hertzka mitbegr\xfcndeten \u201eInternationalen Frauenliga f\xfcr Frieden und Freiheit in \xd6sterreich\u201c wurde sie mehrmals von der Gestapo verhaftet. Maria Hofer stand nach 1945 bis zu Hertzkas Tod 1948 mit ihr in engem Kontakt.","Hier wurde die Komponistin Lisa Maria Mayer 1894 geboren. Ihr Erfolg als Komponistin von \xfcber 50 Werken ist auch durch die Drucklegung bei der Universaledition dokumentiert. Als konvertierte J\xfcdin in einer Ehe mit dem Nichtjuden Josef Gaberle in Wien geduldet, war sie den Schikanen des NS-Regimes ausgesetzt, durfte weder unterrichten noch auftreten und \xfcberlebte mit schweren gesundheitlichen Beeintr\xe4chtigungen. Von 1945 bis 1948 war Lisa Maria Mayer (1894-1928) am Konservatorium der Stadt Wien angestellt. Der 1888 begr\xfcndete Club der Wiener Musikerinnen in Wien Alsergrund bot ihr zahlreiche Auftrittsm\xf6glichkeiten. Er wurde 1938 aufgel\xf6st.","Valerie Pick, verheiratete Vally Weigl (1894-1982) war eine der Absolventinnen dieser Schule, die einzige, an der eine Matura f\xfcr M\xe4dchen erlaubt war. Nach ihren Studien in Musikwissenschaft und Philosophie an der Universit\xe4t Wien nahm sie auch Kompositionsunterricht bei Karl Weigl, den sie 1921 heiratete. Sie fl\xfcchtete vor dem NS Regime in die USA, ihre Schwester K\xe4the Leichter \xfcberlebte den Holocaust nicht. Vally Weigls Verdienste sind nicht nur zahlreiche Kompositionen f\xfcr Stimme und kleinere Ensembles, sondern auch die Pionierarbeit in Musiktherapie, die sie begann, als sie selbst betroffen nach einer Schulterverletzung war.","Der Verlag, 1919 mit Hilfe von Robert Stolz gegr\xfcndet, bestand bis ins Jahr 1941. 1927 wurde hier, im Wiener Boh\xe8me Verlag, die erste und erfolgreichste Komposition der Hilda L\xf6we (1895-1976) ver\xf6ffentlicht, das Chanson Das alte Lied, das sie f\xfcr Raoul Aslan geschrieben und zu dem Fritz L\xf6hner den Text verfasst hatte. Auf Anraten des Verlags w\xe4hlte die Komponistin f\xfcr die Ver\xf6ffentlichung ein Pseudonym: Henry Love. Unter diesem Namen ver\xf6ffentlichte sie zahlreiche weitere Schlager und Chansons. Sie hatte an der Akademie f\xfcr Musik und darstellende Kunst, damals im Komplex des Wiener Konzerthauses, als Pianistin und Komponistin im Jahr 1914 mit vorz\xfcglichem Erfolg abgeschlossen. Im Wiener Konzerthaus sind zahlreiche Auftritte mit Kammermusik und Chansons dokumentiert.1934 heiratete Hilda Loewe den Wiener B\xfchnenbildner und Maler Joseph Otto Flatter, mit dem sie im selben Jahr nach Gro\xdfbritannien emigrierte.","Die T\xe4nzerin, S\xe4ngerin, Komponistin und Autorin Anita Bild, geborene Lelewer (1915-2012) maturierte am Gymnasium in der Rahlgasse. Nach ihrer Ballettausbildung am Neuen Wiener Konservatorium folgten Engagements an Theatern in Basel, Baden, Wien und Kairo sowie eine Kooperation mit dem Tenor Richard Tauber. Ihre Karriere als T\xe4nzerin wurde 1938 beendet. Sie fl\xfcchtete mit einem Domestic Permit 1939 nach England und konnte wieder als T\xe4nzerin, S\xe4ngerin und Schauspielerin arbeiten. Sie wirkte ab 1950 bei der BBC als Drehbuchautorin und als Leiterin des deutschen Senders. Sie starb 2012 in London.","Hier befand sich von Mitte der 20er Jahre bis zum Bau des Funkhauses die Sendeanlage von Radio Wien in einer ehemaligen Schule. Radio Wien sendete die Lieder der in der NS Zeit vertriebenen Komponistinnen, von Hilda L\xf6we aber auch von Harry Harald, Pseudonym von Hilda Geiringer. Diese Hilda Geiringer, geboren 1898, alias Harry Harald, ging 1938 ins Exil nach London und emigrierte 1940 weiter nach Pennsylvania, wo sie auch 1977 starb.","Camilla Frydan, eigentlich Camilla Herzl, Pseudonym Camilla Herzer (1887-1949), hatte Klavier, Harmonielehre und Komposition am Konservatorium der Gesellschaft der Musikfreunde studiert. Im Alter von f\xfcnf Jahren gab sie ihr erstes Konzert im Wiener Ehrbar-Saal. Sie wirkte als Dirigentin und S\xe4ngerin ihrer Werke, war Textdichterin und Co-Autorin des Prominenten Almanachs. Sie trat nicht nur im Etablissement Simpl auf, sondern auch im Kabarett Fledermaus, oft gemeinsam mit ihrem Schwager Egon Friedell, mit Peter Altenberg oder Alfred Polgar. Sie fl\xfcchtete 1938 ins Exil in die USA, wo sie 1945 einen eigenen Verlag gr\xfcndete.","Josefine Winter, Edle von Wigmar (1873-1943) war Malerin, Komponistin und Schriftstellerin. Nach privaten Studien wurde sie 1903 Studentin von Josef Bohuslav Foerster am Neuen Wiener Konservatorium. In erster Ehe wohnte sie hier mit Alfred Fr\xf6hlich von Feldau, in zweiter Ehe mit dem Dichter Josef von Winter. Sie komponierte vor allem Lieder. Josefine Winter von einer Sammelwohnung im zweiten Bezirk im Jahr 1942 ins KZ Theresienstadt deportiert und 1943 dort ermordet. Vertrieben aus ihrer Villa im W\xe4hringer Cottage vers\xe4umte sie die M\xf6glichkeit, die sie dank ihres Verm\xf6gens und ihres Netzwerkes gehabt h\xe4tte, ins Exil zu gehen. Sie z\xf6gerte zu lange und erlebte die Arisierung ihres Verm\xf6gens und die Deportation."]),t.s)
 B.e7=new A.eR(0,100)
 B.kZ=new A.eR(1,200)
 B.l_=new A.eR(2,300)
@@ -80885,45 +80884,45 @@ B.l0=new A.eR(5,600)
 B.l1=new A.eR(7,800)
 B.hg=new A.eR(8,900)
 B.ln=A.a(s([B.e7,B.kZ,B.l_,B.m,B.L,B.l0,B.aB,B.l1,B.hg]),A.ad("E<eR>"))
-B.Ej=A.a(s(["click","scroll"]),t.s)
-B.El=A.a(s([0,0,32754,11263,65534,34815,65534,18431]),t.t)
-B.Ew=A.a(s([]),A.ad("E<aDp>"))
-B.Er=A.a(s([]),t.QP)
+B.Ei=A.a(s(["click","scroll"]),t.s)
+B.Ek=A.a(s([0,0,32754,11263,65534,34815,65534,18431]),t.t)
+B.Ev=A.a(s([]),A.ad("E<aDp>"))
+B.Eq=A.a(s([]),t.QP)
 B.ls=A.a(s([]),A.ad("E<aPz>"))
-B.Ex=A.a(s([]),A.ad("E<aEs>"))
-B.Ey=A.a(s([]),t.E)
+B.Ew=A.a(s([]),A.ad("E<aEs>"))
+B.Ex=A.a(s([]),t.E)
 B.lr=A.a(s([]),t.SE)
-B.Ev=A.a(s([]),t.fJ)
-B.Ep=A.a(s([]),t.ER)
+B.Eu=A.a(s([]),t.fJ)
+B.Eo=A.a(s([]),t.ER)
 B.Ru=A.a(s([]),t._I)
-B.Em=A.a(s([]),t.tc)
+B.El=A.a(s([]),t.tc)
 B.ef=A.a(s([]),t.jl)
 B.lq=A.a(s([]),t.wi)
-B.En=A.a(s([]),A.ad("E<aqX<@>>"))
+B.Em=A.a(s([]),A.ad("E<aqX<@>>"))
 B.ho=A.a(s([]),t.AO)
-B.Eq=A.a(s([]),t.D1)
+B.Ep=A.a(s([]),t.D1)
 B.hp=A.a(s([]),t.QF)
 B.lp=A.a(s([]),t.s)
 B.aj=A.a(s([]),t.oU)
-B.Et=A.a(s([]),t.Lx)
-B.Eu=A.a(s([]),t.p)
+B.Es=A.a(s([]),t.Lx)
+B.Et=A.a(s([]),t.p)
 B.de=A.a(s([]),t.t)
 B.lo=A.a(s([]),t.ee)
-B.Es=A.a(s([]),t.XS)
+B.Er=A.a(s([]),t.XS)
 B.Kk=new A.e2(24,24,null,null)
 B.jw=new A.FF()
 B.bZ=A.a(s([B.jw,B.jw]),A.ad("E<FF>"))
-B.EG=A.a(s(["1190 Wien, Gymnasiumstra\xdfe 79","1090 Wien, Strudlhofstiege / Liechtensteinstrasse 51","1010 Wien, Oppolzergasse 6","1010 Wien, Graben Tuchlauben 11/Trattnerhof ","1010 Wien, Wallner Stra\xdfe 9","1010 Wien, Dr. Karl Renner-Ring 1","1030 Wien, Lothringerstrasse 20  ","1010 Wien, Musikvereinsplatz 1 "]),t.s)
+B.EF=A.a(s(["1190 Wien, Gymnasiumstra\xdfe 79","1090 Wien, Strudlhofstiege / Liechtensteinstrasse 51","1010 Wien, Oppolzergasse 6","1010 Wien, Graben Tuchlauben 11/Trattnerhof ","1010 Wien, Wallner Stra\xdfe 9","1010 Wien, Dr. Karl Renner-Ring 1","1030 Wien, Lothringerstrasse 20  ","1010 Wien, Musikvereinsplatz 1 "]),t.s)
 B.hO=new A.kd(0,"off")
 B.qp=new A.kd(1,"one")
 B.Gs=new A.kd(2,"all")
-B.EH=A.a(s([B.hO,B.qp,B.Gs]),A.ad("E<kd>"))
+B.EG=A.a(s([B.hO,B.qp,B.Gs]),A.ad("E<kd>"))
 B.f5=new A.kJ(0,"left")
 B.iL=new A.kJ(1,"right")
 B.iM=new A.kJ(3,"justify")
 B.bs=new A.kJ(4,"start")
 B.iN=new A.kJ(5,"end")
-B.EI=A.a(s([B.f5,B.iL,B.f6,B.iM,B.bs,B.iN]),A.ad("E<kJ>"))
+B.EH=A.a(s([B.f5,B.iL,B.f6,B.iM,B.bs,B.iN]),A.ad("E<kJ>"))
 B.eg=A.a(s([0,0,65490,45055,65535,34815,65534,18431]),t.t)
 B.dr=new A.h1(0,"controlModifier")
 B.ds=new A.h1(1,"shiftModifier")
@@ -80935,7 +80934,8 @@ B.qH=new A.h1(6,"scrollLockModifier")
 B.qI=new A.h1(7,"functionModifier")
 B.Hb=new A.h1(8,"symbolModifier")
 B.lt=A.a(s([B.dr,B.ds,B.dt,B.du,B.qF,B.qG,B.qH,B.qI,B.Hb]),A.ad("E<h1>"))
-B.EP=A.a(s(["Parlament","K\xe4rntnerdurchgang","Seilerst\xe4tte 9","K\xe4rntner Ring 1","Favoritenstra\xdfe 8"]),t.s)
+B.EO=A.a(s(["Parlament","K\xe4rntnerdurchgang","Seilerst\xe4tte 9","K\xe4rntner Ring 1","Favoritenstra\xdfe 8"]),t.s)
+B.EP=A.a(s(["assets/assets/audio/demokratie_audio/odd_gymnasiumstrasse79.mp3","assets/assets/audio/demokratie_audio/odd_strudlhofstiege.mp3","assets/assets/audio/demokratie_audio/odd_oppolzergasse6.mp3","assets/assets/audio/demokratie_audio/odd_grabentuchlauben11.mp3","assets/assets/audio/demokratie_audio/odd_wallnerstrasse9.mp3","assets/assets/audio/demokratie_audio/odd_drkarlrennerring1.mp3","assets/assets/audio/demokratie_audio/odd_lothringerstrasse20.mp3","assets/assets/audio/demokratie_audio/odd_karlsplatz.mp3"]),t.s)
 B.c6=new A.dD(1,"fuchsia")
 B.c7=new A.dD(3,"linux")
 B.c8=new A.dD(5,"windows")
@@ -81832,11 +81832,11 @@ B.D7=A.a(s([4294968071,null,null,8589935155]),t.Z)
 B.D8=A.a(s([4294968072,null,null,8589935161]),t.Z)
 B.DK=A.a(s([8589934850,8589934850,8589934851,null]),t.Z)
 B.qA=new A.cd(["*",B.Db,"+",B.Dc,"-",B.Dd,".",B.De,"/",B.Df,"0",B.Dg,"1",B.Dh,"2",B.Dm,"3",B.Dn,"4",B.Do,"5",B.Dp,"6",B.Dq,"7",B.Dr,"8",B.Ds,"9",B.Dt,"Alt",B.DH,"AltGraph",B.D0,"ArrowDown",B.D1,"ArrowLeft",B.D2,"ArrowRight",B.D3,"ArrowUp",B.D4,"Clear",B.D9,"Control",B.DI,"Delete",B.D_,"End",B.D5,"Enter",B.CZ,"Home",B.D6,"Insert",B.Da,"Meta",B.DJ,"PageDown",B.D7,"PageUp",B.D8,"Shift",B.DK],A.ad("cd<j,z<m?>>"))
-B.EJ=A.a(s([B.lB,null,null,B.qh]),t.L)
-B.EK=A.a(s([B.q3,null,null,B.qi]),t.L)
-B.EL=A.a(s([B.q4,null,null,B.qj]),t.L)
-B.EM=A.a(s([B.q5,null,null,B.hB]),t.L)
-B.EN=A.a(s([B.q6,null,null,B.qk]),t.L)
+B.EI=A.a(s([B.lB,null,null,B.qh]),t.L)
+B.EJ=A.a(s([B.q3,null,null,B.qi]),t.L)
+B.EK=A.a(s([B.q4,null,null,B.qj]),t.L)
+B.EL=A.a(s([B.q5,null,null,B.hB]),t.L)
+B.EM=A.a(s([B.q6,null,null,B.qk]),t.L)
 B.DQ=A.a(s([B.q7,null,null,B.hC]),t.L)
 B.DR=A.a(s([B.q8,null,null,B.hD]),t.L)
 B.DS=A.a(s([B.q9,null,null,B.hE]),t.L)
@@ -81847,24 +81847,24 @@ B.DW=A.a(s([B.qd,null,null,B.hI]),t.L)
 B.DX=A.a(s([B.qe,null,null,B.hJ]),t.L)
 B.EU=A.a(s([B.qf,null,null,B.hK]),t.L)
 B.EV=A.a(s([B.qg,null,null,B.hL]),t.L)
-B.EC=A.a(s([B.dm,B.dm,B.en,null]),t.L)
+B.EB=A.a(s([B.dm,B.dm,B.en,null]),t.L)
 B.EW=A.a(s([B.ej,null,B.ej,null]),t.L)
 B.E4=A.a(s([B.b5,null,null,B.hE]),t.L)
 B.E5=A.a(s([B.aU,null,null,B.hG]),t.L)
 B.E6=A.a(s([B.aV,null,null,B.hI]),t.L)
-B.Ek=A.a(s([B.b6,null,null,B.hK]),t.L)
-B.Ez=A.a(s([B.hu,null,null,B.hH]),t.L)
-B.ED=A.a(s([B.dk,B.dk,B.em,null]),t.L)
+B.Ej=A.a(s([B.b6,null,null,B.hK]),t.L)
+B.Ey=A.a(s([B.hu,null,null,B.hH]),t.L)
+B.EC=A.a(s([B.dk,B.dk,B.em,null]),t.L)
 B.DN=A.a(s([B.aC,null,null,B.hB]),t.L)
 B.E7=A.a(s([B.c_,null,null,B.hD]),t.L)
-B.EO=A.a(s([B.ei,null,null,B.hA]),t.L)
+B.EN=A.a(s([B.ei,null,null,B.hA]),t.L)
 B.E8=A.a(s([B.c0,null,null,B.hJ]),t.L)
-B.EA=A.a(s([B.hv,null,null,B.hC]),t.L)
-B.EE=A.a(s([B.dn,B.dn,B.eo,null]),t.L)
+B.Ez=A.a(s([B.hv,null,null,B.hC]),t.L)
+B.ED=A.a(s([B.dn,B.dn,B.eo,null]),t.L)
 B.E9=A.a(s([B.di,null,null,B.hF]),t.L)
-B.EB=A.a(s([B.dj,null,null,B.hL]),t.L)
-B.EF=A.a(s([B.ct,B.ct,B.dl,null]),t.L)
-B.GZ=new A.cd(["*",B.EJ,"+",B.EK,"-",B.EL,".",B.EM,"/",B.EN,"0",B.DQ,"1",B.DR,"2",B.DS,"3",B.DT,"4",B.DU,"5",B.DV,"6",B.DW,"7",B.DX,"8",B.EU,"9",B.EV,"Alt",B.EC,"AltGraph",B.EW,"ArrowDown",B.E4,"ArrowLeft",B.E5,"ArrowRight",B.E6,"ArrowUp",B.Ek,"Clear",B.Ez,"Control",B.ED,"Delete",B.DN,"End",B.E7,"Enter",B.EO,"Home",B.E8,"Insert",B.EA,"Meta",B.EE,"PageDown",B.E9,"PageUp",B.EB,"Shift",B.EF],A.ad("cd<j,z<f?>>"))
+B.EA=A.a(s([B.dj,null,null,B.hL]),t.L)
+B.EE=A.a(s([B.ct,B.ct,B.dl,null]),t.L)
+B.GZ=new A.cd(["*",B.EI,"+",B.EJ,"-",B.EK,".",B.EL,"/",B.EM,"0",B.DQ,"1",B.DR,"2",B.DS,"3",B.DT,"4",B.DU,"5",B.DV,"6",B.DW,"7",B.DX,"8",B.EU,"9",B.EV,"Alt",B.EB,"AltGraph",B.EW,"ArrowDown",B.E4,"ArrowLeft",B.E5,"ArrowRight",B.E6,"ArrowUp",B.Ej,"Clear",B.Ey,"Control",B.EC,"Delete",B.DN,"End",B.E7,"Enter",B.EN,"Home",B.E8,"Insert",B.Ez,"Meta",B.ED,"PageDown",B.E9,"PageUp",B.EA,"Shift",B.EE],A.ad("cd<j,z<f?>>"))
 B.H_=new A.y3(null,null,null,null,null,null,null,null)
 B.At=new A.N(4284790262)
 B.Am=new A.N(4282557941)
