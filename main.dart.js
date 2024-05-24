@@ -6362,7 +6362,7 @@ j=1}else j=3
 q.a=k+n
 s+=j
 r=s
-p=!0}else if(o<127&&(B.Gl[o>>>4]&1<<(o&15))!==0){if(p&&65<=o&&90>=o){if(q==null)q=new A.cj("")
+p=!0}else if(o<127&&(B.Gk[o>>>4]&1<<(o&15))!==0){if(p&&65<=o&&90>=o){if(q==null)q=new A.cj("")
 if(r<s){q.a+=B.d.a_(a,r,s)
 r=s}p=!1}++s}else if(o<=93&&(B.m3[o>>>4]&1<<(o&15))!==0)A.w6(a,s,"Invalid character")
 else{if((o&64512)===55296&&s+1<c){i=a.charCodeAt(s+1)
@@ -6392,7 +6392,7 @@ if(a==="https")return"https"
 if(a==="package")return"package"
 return a},
 aD9(a,b,c){if(a==null)return""
-return A.FW(a,b,c,B.FU,!1,!1)},
+return A.FW(a,b,c,B.FT,!1,!1)},
 aD7(a,b,c,d,e,f){var s,r=e==="file",q=r||f
 if(a==null)return r?"/":""
 else s=A.FW(a,b,c,B.m2,!0,!0)
@@ -7648,7 +7648,7 @@ return s},
 a6g:function a6g(){this.a=$
 this.b=0
 this.c=2147483647},
-auY(a){var s=A.KK(B.Fn),r=A.KK(B.G_)
+auY(a){var s=A.KK(B.Fn),r=A.KK(B.FZ)
 r=new A.a6R(A.oR(a,0,null,0),A.aAZ(null),s,r)
 r.b=!0
 r.a4f()
@@ -7725,7 +7725,7 @@ return A.q($async$Hw,r)},
 aJX(){var s=new A.r3(A.hh(null,!1,t.jZ),A.abp(!1,t.Ie),A.abp(!1,t.H),A.abp(!1,t.kE))
 s.Z5()
 return s},
-ayv(a){var s,r,q,p="avAudioSessionCategory",o=null,n="avAudioSessionCategoryOptions",m="avAudioSessionMode",l="avAudioSessionRouteSharingPolicy",k="avAudioSessionSetActiveOptions",j="androidAudioAttributes",i=J.Y(a),h=i.i(a,p)==null?o:B.FG[A.cc(i.i(a,p))],g=i.i(a,n)==null?o:new A.H1(A.cc(i.i(a,n))),f=i.i(a,m)==null?o:B.FT[A.cc(i.i(a,m))],e=i.i(a,l)==null?o:B.FJ[A.cc(i.i(a,l))],d=i.i(a,k)==null?o:new A.H2(A.cc(i.i(a,k)))
+ayv(a){var s,r,q,p="avAudioSessionCategory",o=null,n="avAudioSessionCategoryOptions",m="avAudioSessionMode",l="avAudioSessionRouteSharingPolicy",k="avAudioSessionSetActiveOptions",j="androidAudioAttributes",i=J.Y(a),h=i.i(a,p)==null?o:B.FG[A.cc(i.i(a,p))],g=i.i(a,n)==null?o:new A.H1(A.cc(i.i(a,n))),f=i.i(a,m)==null?o:B.FS[A.cc(i.i(a,m))],e=i.i(a,l)==null?o:B.FI[A.cc(i.i(a,l))],d=i.i(a,k)==null?o:new A.H2(A.cc(i.i(a,k)))
 if(i.i(a,j)==null)s=o
 else{s=J.qV(t.f.a(i.i(a,j)),t.N,t.z)
 r=A.h9(s.i(0,"contentType"))
@@ -19114,7 +19114,7 @@ q=b.Q
 if(a.Q!==q)return q?-1:1
 return 0},
 aLO(a,b){var s=A.a6(b).h("ag<1,ee>")
-return A.aL9(!0,A.a4(new A.ag(b,new A.a2X(),s),!0,s.h("am.E")),a,B.Gv,!0,B.Ce,null)},
+return A.aL9(!0,A.a4(new A.ag(b,new A.a2X(),s),!0,s.h("am.E")),a,B.Gu,!0,B.Ce,null)},
 aLM(a){a.bU()
 a.bi(A.aEH())},
 JN(a){var s=a.a,r=s instanceof A.oE?s:null
@@ -19682,7 +19682,7 @@ _.Q=!0
 _.at=_.as=!1
 _.$ti=d},
 aA2(a,b){var s
-if(a===b)return new A.I2(B.Gx)
+if(a===b)return new A.I2(B.Gw)
 s=A.a([],t.fJ)
 a.m6(new A.a6S(b,A.b1("debugDidFindAncestor"),A.aD(t.v),s))
 return new A.I2(s)},
@@ -22775,7 +22775,7 @@ a1=A.r6(!1,a1)
 l=A.hh(e,!1,l)
 h=A.abp(!0,t.U2)
 g=B.ej.zm()
-f=new A.ZY(B.Gy,B.Gm)
+f=new A.ZY(B.Gx,B.Gl)
 h=new A.ZZ(g,new A.UG(A.D(d,t.WK)),A.D(d,t.IN),f,c,b,a,a0,a2,a4,a5,a3,s,r,q,p,o,n,m,k,j,i,a1,l,h)
 h.Z4(!0,!1,e,e,!0,!0,!0,e)
 return h},
@@ -26610,7 +26610,7 @@ break
 case 2:o=a.aW()
 break
 case 3:e=a.bN()
-n=e>2||e<0?B.hI:B.FS[e]
+n=e>2||e<0?B.hI:B.FR[e]
 break
 case 4:m=a.bN()
 break
@@ -27601,20 +27601,20 @@ aK_(a){var s,r
 try{if(a<5){s=B.GQ[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aK0(a){var s,r
-try{if(a<5){s=B.FY[a]
+try{if(a<5){s=B.FX[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
-aJT(a){if(a<8)return B.Gf[a]
+aJT(a){if(a<8)return B.Ge[a]
 else throw A.c(A.bi("No audio path found for the given index",null))},
 aL8(a){var s,r
 try{if(a<8){s=B.Fy[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aL6(a){var s,r
-try{if(a<8){s=B.GG[a]
+try{if(a<8){s=B.GF[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aL7(a){var s,r
-try{if(a<8){s=B.FW[a]
+try{if(a<8){s=B.FV[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
-aQH(a){if(a<8)return B.FI[a]
+aQH(a){if(a<8)return B.GN[a]
 else throw A.c(A.bi("No video path found for the given index",null))},
 aJV(a){if(a<8)return B.GS[a]
 else throw A.c(A.bi("No audio path found for the given index",null))},
@@ -27625,18 +27625,18 @@ aQE(a){var s,r
 try{if(a<8){s=B.Ft[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aQF(a){var s,r
-try{if(a<8){s=B.Gh[a]
+try{if(a<8){s=B.Gg[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aJU(a){if(a<8)return B.Fo[a]
 else throw A.c(A.bi("No audio path found for the given index",null))},
 aPV(a){var s,r
-try{if(a<8){s=B.G9[a]
+try{if(a<8){s=B.G8[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aPT(a){var s,r
 try{if(a<8){s=B.EF[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aPU(a){var s,r
-try{if(a<8){s=B.Gg[a]
+try{if(a<8){s=B.Gf[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aQI(a){if(a<8)return B.Fv[a]
 else throw A.c(A.bi("No video path found for the given index",null))},
@@ -27646,7 +27646,7 @@ aQS(a){var s,r
 try{if(a<12){s=B.EK[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aQQ(a){var s,r
-try{if(a<12){s=B.Gb[a]
+try{if(a<12){s=B.Ga[a]
 return s}else return"Index not found"}catch(r){return"Error occurred"}},
 aQR(a){var s,r
 try{if(a<12){s=B.FE[a]
@@ -29878,7 +29878,7 @@ Tr(){var s=this.Q
 s===$&&A.b()
 return s},
 GV(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Gu
+if(a<0||b<0)return B.Gt
 s=this.a
 s===$&&A.b()
 s=s.a
@@ -29899,7 +29899,7 @@ r===$&&A.b()
 r=r.a
 r.toString
 r=A.x(r,"getGlyphPositionAtCoordinate",[a.a,a.b])
-s=B.G7[B.c.a6(r.affinity.value)]
+s=B.G6[B.c.a6(r.affinity.value)]
 return new A.cS(B.c.a6(r.pos),s)},
 Tu(a){var s,r,q,p,o=this.a
 o===$&&A.b()
@@ -32660,7 +32660,7 @@ if(r.e!==B.lB){r.e=B.lB
 r.LF()}}return r.c.a.V_(a)},
 LF(){var s,r
 for(s=this.r,r=0;r<s.length;++r)s[r].$1(this.e)},
-UZ(a){if(B.b.u(B.Gj,a))return this.e===B.cB
+UZ(a){if(B.b.u(B.Gi,a))return this.e===B.cB
 return!1}}
 A.a3t.prototype={
 $0(){return new A.dK(Date.now(),!1)},
@@ -34046,7 +34046,7 @@ n=A.h9(r.i(s,"fontWeightIndex"))
 m=n!=null?A.aV5(n):"normal"
 l=A.aDm(r.i(s,"fontSize"))
 if(l==null)l=null
-q=new A.ag6(new A.a2U(l,m,A.cy(r.i(s,"fontFamily")),B.GI[p],B.hN[o]))
+q=new A.ag6(new A.a2U(l,m,A.cy(r.i(s,"fontFamily")),B.GH[p],B.hN[o]))
 break
 case"TextInput.clearClient":q=B.Av
 break
@@ -42619,7 +42619,7 @@ if(r>19)return-1
 q=new Uint8Array(19)
 for(p=0;p<r;++p){o=i.hR(3)
 if(o===-1)return-1
-q[B.FX[p]]=o}n=A.KK(q)
+q[B.FW[p]]=o}n=A.KK(q)
 m=h+s
 l=new Uint8Array(m)
 k=B.aK.hX(l.buffer,0,h)
@@ -42632,10 +42632,10 @@ if(r<0||r>285)return-1
 if(r===256)break
 if(r<256){s.qo(r&255)
 continue}q=r-257
-p=B.Gc[q]+l.hR(B.Fm[q])
+p=B.Gb[q]+l.hR(B.Fm[q])
 o=l.C6(b)
 if(o<0||o>29)return-1
-n=B.Fs[o]+l.hR(B.G0[o])
+n=B.Fs[o]+l.hR(B.G_[o])
 for(m=-n;p>n;){s.GR(s.HJ(m))
 p-=n}if(p===n)s.GR(s.HJ(m))
 else s.GR(s.l3(m,p-n))}for(;s=l.e,s>=8;){l.e=s-8
@@ -46272,7 +46272,7 @@ if(s==null)s=B.bi
 p=p.e
 o=r.ga4Q()
 r.a.toString
-return new A.CP(q,q,q,new A.aon(),q,q,q,q,q,p,B.J_,q,q,q,B.Gn,r.ga54(),"",q,B.QK,s,q,o,q,q,B.lZ,!1,!1,!1,!1,r.ga4t(),!1,q,q,q,new A.oK(r,t.bT))},
+return new A.CP(q,q,q,new A.aon(),q,q,q,q,q,p,B.J_,q,q,q,B.Gm,r.ga54(),"",q,B.QK,s,q,o,q,q,B.lZ,!1,!1,!1,!1,r.ga4t(),!1,q,q,q,new A.oK(r,t.bT))},
 H(a){var s,r=null,q=A.yv(!1,!1,this.a_w(a),r,r,r,r,!0,r,r,r,new A.aoo(),r,r)
 this.a.toString
 s=this.d
@@ -46567,7 +46567,7 @@ A.v9.prototype={
 E(){return"_CornerId."+this.b}}
 A.lF.prototype={}
 A.tw.prototype={
-kf(){var s,r,q=this,p=A.aTs(B.G8,new A.a8K(q,q.b.gbl().a7(0,q.a.gbl()))),o=q.a
+kf(){var s,r,q=this,p=A.aTs(B.G7,new A.a8K(q,q.b.gbl().a7(0,q.a.gbl()))),o=q.a
 o.toString
 s=p.a
 o=q.or(o,s)
@@ -54389,7 +54389,7 @@ Tt(a){var s=this.b,r=s.a.a.Tu(a.a7(0,s.ghG()))
 if(r==null||s.ghG().k(0,B.h))return r
 return new A.yG(r.a.dm(s.ghG()),r.b,r.c)},
 Dv(){var s,r,q=this.b,p=q.ghG()
-if(!isFinite(p.a)||!isFinite(p.b))return B.Gq
+if(!isFinite(p.a)||!isFinite(p.b))return B.Gp
 s=q.e
 if(s==null){s=q.a.a.Dv()
 q.e=s}if(p.k(0,B.h))r=s
@@ -61152,7 +61152,7 @@ break
 case 1:return A.p(q,r)}})
 return A.q($async$By,r)},
 a1R(a,b){var s,r,q,p
-if(a===b)return B.Gs
+if(a===b)return B.Gr
 if(a===B.db&&b===B.da)return B.Fp
 s=A.a([],t.QP)
 if(a==null)s.push(b)
@@ -62435,7 +62435,7 @@ A.lj.prototype={}
 A.Ne.prototype={
 kD(a,b,c){var s,r,q,p,o,n=$.aO.M$.f.c
 if(n==null||n.e==null)return!1
-for(s=t.vz,r=0;r<2;++r){q=B.Ga[r]
+for(s=t.vz,r=0;r<2;++r){q=B.G9[r]
 p=n.e
 p.toString
 o=A.au8(p,q,s)
@@ -65836,7 +65836,7 @@ A.eh.prototype={
 k(a,b){if(b==null)return!1
 if(J.a_(b)!==A.y(this))return!1
 return b instanceof A.eh&&b.a===this.a&&b.d===this.d&&A.da(null,null)},
-gq(a){return A.U(this.a,"MaterialIcons",null,this.d,A.bX(B.Gt),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gq(a){return A.U(this.a,"MaterialIcons",null,this.d,A.bX(B.Gs),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){return"IconData(U+"+B.d.kI(B.e.it(this.a,16).toUpperCase(),5,"0")+")"}}
 A.oP.prototype={
 c7(a){return!this.w.k(0,a.w)},
@@ -66696,7 +66696,7 @@ c=g==null?(c.b.a.a.a&64)!==0:g
 g=s&&d
 b=s?d:b.ch
 if(b==null)b=B.it
-f=new A.zP(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.Jd(d),B.Gp)
+f=new A.zP(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.Jd(d),B.Go)
 if(!f.k(0,e.e))e.P(new A.aoF(e,f))},
 PG(){this.rH()},
 PI(){if(this.d==null)this.rH()},
@@ -67046,7 +67046,7 @@ r.K(0,s.Sq(null,k))
 k.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.Go[p]
+for(;!1;++p){o=B.Gn[p]
 n=k.c
 n.toString
 n=o.DI(n)
@@ -72425,7 +72425,7 @@ p.wR()
 return s.ah()},
 m(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gBC(),p=0;p<s.length;s.length===r||(0,A.Q)(s),++p)J.ayh(s[p],q)
-o.b=B.Gr
+o.b=B.Gq
 o.y=!1
 o.eq()},
 fd(a,b){return a.ps(b)},
@@ -75153,7 +75153,7 @@ r=p.R8
 r===$&&A.b()
 o=A.aCb(B.A,r*0.017453292519943295,A.cY(B.a_,o.c,B.X),q)
 p.a.toString
-o=A.auk(A.cY(B.a_,A.a([new A.MG(s,s,m,m,o,q),A.cY(B.a_,B.Gw,B.X)],t.p),B.X),B.aP)
+o=A.auk(A.cY(B.a_,A.a([new A.MG(s,s,m,m,o,q),A.cY(B.a_,B.Gv,B.X)],t.p),B.X),B.aP)
 if(n==null)n=B.lk
 return new A.qu(p,A.tk(B.bM,new A.Av(new A.lk(o,this.b,q,!1,q),p.gtK(),p.gER(),p.gadS(),p.gae7(),n,p.ok,q),p.gagV(),p.gagZ(),p.gah0(),q,p.gah2(),p.gah4()),q)},
 $S:463}
@@ -76531,7 +76531,7 @@ if(q!=null)r.a.fy.v(0,q)
 q=a.d
 if(q!=null)r.a.go.v(0,q)
 q=a.e
-if(q!=null)r.a.p4.v(0,B.GH[q.a])
+if(q!=null)r.a.p4.v(0,B.GG[q.a])
 q=a.f
 if(q!=null)r.a.R8.v(0,q!==B.j3)},
 $S:488}
@@ -76550,7 +76550,7 @@ k=J.aj(s,j).d}else{s=s.e.b!==B.B?s.gl(0):l
 s.toString
 J.aj(s,j).d=k}}s=m.a
 r=s.bn
-r=(r&&a.a!==B.dY?s.bn=!1:r)?B.f6:B.FV[a.a.a]
+r=(r&&a.a!==B.dY?s.bn=!1:r)?B.f6:B.FU[a.a.a]
 q=a.f
 if(q==null)q=l
 else{p=q.a
@@ -77254,7 +77254,7 @@ break
 case 1:return A.p(q,r)}})
 return A.q($async$h3,r)}}
 A.a9c.prototype={
-$1(a){var s,r,q,p,o,n=null,m="duration",l="icyMetadata",k=J.Y(a),j=B.FZ[A.cc(k.i(a,"processingState"))],i=A.az2(A.cc(k.i(a,"updateTime")),!1),h=A.bB(A.cc(k.i(a,"updatePosition")),0),g=A.bB(A.cc(k.i(a,"bufferedPosition")),0),f=k.i(a,m)==null||A.cc(k.i(a,m))<0?n:A.bB(A.cc(k.i(a,m)),0)
+$1(a){var s,r,q,p,o,n=null,m="duration",l="icyMetadata",k=J.Y(a),j=B.FY[A.cc(k.i(a,"processingState"))],i=A.az2(A.cc(k.i(a,"updateTime")),!1),h=A.bB(A.cc(k.i(a,"updatePosition")),0),g=A.bB(A.cc(k.i(a,"bufferedPosition")),0),f=k.i(a,m)==null||A.cc(k.i(a,m))<0?n:A.bB(A.cc(k.i(a,m)),0)
 if(k.i(a,l)==null)s=n
 else{s=t.f
 r=s.a(k.i(a,l))
@@ -77276,7 +77276,7 @@ q=A.fH(s.i(a,"volume"))
 p=A.fH(s.i(a,"speed"))
 o=A.fH(s.i(a,"pitch"))
 n=s.i(a,m)!=null?B.mb[A.cc(s.i(a,m))]:null
-return new A.k0(r,q,p,o,n,s.i(a,l)!=null?B.Ge[A.cc(s.i(a,l))]:null)},
+return new A.k0(r,q,p,o,n,s.i(a,l)!=null?B.Gd[A.cc(s.i(a,l))]:null)},
 $S:495}
 A.a7h.prototype={
 jK(a){return this.afp(a)},
@@ -82305,7 +82305,7 @@ A.bN(this.a,!1).dv(s)},
 $S:0}
 A.a9_.prototype={
 $1(a){var s=t.N
-return new A.p7(A.M(["Kehlseninstitut",u.Z,"Strudelhofstiege",u.G,"Landtmann",u.R,"erster Wienrer Frauenclub",u._,"Eugenia Schwarzwaldschule",u.v,"Rehor Park",u.H],s,s),null)},
+return new A.p7(A.M(["Kehlseninstitut",u.Z,"Strudelhofstiege",u.G,"Landtmann",u.R,"erster Wienrer Frauenclub",u._,"Eugenia Schwarzwaldschule",u.v,"Rehor Park",u.H,"Musikverein",u.n],s,s),null)},
 $S:534}
 A.a9b.prototype={
 $0(){var s=A.d8(new A.a8Z(),null,t.z)
@@ -83251,7 +83251,7 @@ k=A.d_(b,8,B.p)
 q[2]=k
 j=A.d_(b,12,B.p)
 q[3]=j
-for(n=1;n<=10;++n){m=(m^c.rC((j>>>8|(j&$.ea[24])<<24)>>>0)^B.Gi[n-1])>>>0
+for(n=1;n<=10;++n){m=(m^c.rC((j>>>8|(j&$.ea[24])<<24)>>>0)^B.Gh[n-1])>>>0
 b=o[n]
 b[0]=m
 l=(l^m)>>>0
@@ -88523,7 +88523,7 @@ B.W=new A.PQ()
 B.aG=new A.PR()
 B.ej=new A.ahg()
 B.d4=new A.PX(0,0,0,0)
-B.Gp=A.a(s([]),A.af("B<a2r>"))
+B.Go=A.a(s([]),A.af("B<a2r>"))
 B.TH=new A.ahH()
 B.dk=new A.Qb()
 B.c_=new A.Qc()
@@ -88971,8 +88971,8 @@ B.EJ=A.a(s(["assets/audio/baker_audio/baker_parlament.mp3","assets/audio/baker_a
 B.EK=A.a(s(["Nanette Streicher","Franz Anton Mesmer","Nanette Streicher","Josepha Auernhammer","Marianna von Martines","Maria Theresia Paradis","Maria Josepha M\xfcllner-Gollenhofe","Josepha Auernhammer","Marianna von Martines","Maria Theresia Paradis","Nanette Streicher","Leopoldine Blahetka"]),t.s)
 B.F5=A.a(s([23,114,69,56,80,144]),t.t)
 B.F4=A.a(s([49,65,89,38,83,89]),t.t)
-B.Gd=A.a(s([137,80,78,71,13,10,26,10]),t.Z)
-B.De=new A.kT(B.Gd,"image/png")
+B.Gc=A.a(s([137,80,78,71,13,10,26,10]),t.Z)
+B.De=new A.kT(B.Gc,"image/png")
 B.F6=A.a(s([71,73,70,56,55,97]),t.Z)
 B.Di=new A.kT(B.F6,"image/gif")
 B.F7=A.a(s([71,73,70,56,57,97]),t.Z)
@@ -89021,15 +89021,14 @@ B.ro=new A.l_(3,"luma")
 B.rp=new A.l_(4,"lumaInverted")
 B.Ja=new A.l_(5,"unknown")
 B.FH=A.a(s([B.io,B.J9,B.ip,B.ro,B.rp,B.Ja]),A.af("B<l_>"))
-B.FI=A.a(s([u.Z,u.G,u.R,u._,u.v,u.H,u.n,u.n]),t.s)
 B.ye=new A.o1(0,"defaultPolicy")
 B.yf=new A.o1(1,"longFormAudio")
 B.yg=new A.o1(2,"longFormVideo")
 B.yh=new A.o1(3,"independent")
-B.FJ=A.a(s([B.ye,B.yf,B.yg,B.yh]),A.af("B<o1>"))
+B.FI=A.a(s([B.ye,B.yf,B.yg,B.yh]),A.af("B<o1>"))
 B.DA=new A.t8(0,"leftAlign")
 B.DB=new A.t8(1,"rightAlign")
-B.FS=A.a(s([B.DA,B.DB,B.hI]),A.af("B<t8>"))
+B.FR=A.a(s([B.DA,B.DB,B.hI]),A.af("B<t8>"))
 B.H1=new A.jT("en","US")
 B.lZ=A.a(s([B.H1]),t.ss)
 B.eD=A.a(s([0,0,24576,1023,65534,34815,65534,18431]),t.t)
@@ -89051,28 +89050,28 @@ B.ya=new A.hQ(5,"videoChat")
 B.yb=new A.hQ(6,"videoRecording")
 B.yc=new A.hQ(7,"voiceChat")
 B.yd=new A.hQ(8,"voicePrompt")
-B.FT=A.a(s([B.jL,B.y6,B.y7,B.y8,B.y9,B.ya,B.yb,B.yc,B.yd]),A.af("B<hQ>"))
-B.FU=A.a(s([0,0,32722,12287,65534,34815,65534,18431]),t.t)
+B.FS=A.a(s([B.jL,B.y6,B.y7,B.y8,B.y9,B.ya,B.yb,B.yc,B.yd]),A.af("B<hQ>"))
+B.FT=A.a(s([0,0,32722,12287,65534,34815,65534,18431]),t.t)
 B.bk=new A.h_(0,"idle")
 B.f6=new A.h_(1,"loading")
 B.KQ=new A.h_(2,"buffering")
 B.bQ=new A.h_(3,"ready")
 B.aL=new A.h_(4,"completed")
-B.FV=A.a(s([B.bk,B.f6,B.KQ,B.bQ,B.aL]),A.af("B<h_>"))
-B.FW=A.a(s(["Das Cottage Lyzeum wurde 1903 gegr\xfcndet in einer Privatwohnung in der Kreindlgasse 3 als eine Privatschule f\xfcr M\xe4dchen, 1905 bereits mit \xd6ffentlichkeitsrecht ausgestattet. Yella Hertzka bezahlte die Miete; noch im selben Jahr stellte Hertzka der unter Platzmangel leidenden Schule ihr neu erbautes Haus in der Gymnasiumstra\xdfe 79 zur Verf\xfcgung. Eine Zeitlang beherbergte das Haus das Hans Kelsen Institut. 1921 musste Salome Goldmann, Hertzkas Co-Leiterin, wegen finanzieller Schwierigkeiten den Erhalt der Schule aufgeben, der von Eltern und Lehrern gegr\xfcndete Verein zur Erhaltung der D\xf6blinger M\xe4dchenmittelschule konnte die Schule jedoch weiterf\xfchren. Goldmann wurde in Theresienstadt ermordet, Hertzka konnte im Exil in Gro\xdfbritannien \xfcberleben.","Bei der Familie des Verlegers Moritz Szeps, dem Vater von Bertha Zuckerkandl, fanden opulente Festveranstaltungen statt, viele ber\xfchmte Wiener Pers\xf6nlichkeiten der damaligen Zeit verkehrten im Haus. Seit den 1930er-Jahren ist hier die Residenz des schwedischen Botschafters in Wien. Bertha Zuckerkandl stand als Kultur-Journalistin an der Seite der Wiener Kunstschaffenden, sie unterst\xfctzte besonders Gustav Klimt, war Mitbegr\xfcnderin unter anderem des Hagenbundes oder des Friedenswerkes Salzburger Festspiele. Sie \xfcbersetzte Theaterst\xfccke f\xfcr das Wienber Burgtheater, sie war politische Vermittlerin und bem\xfchte sich aktiv um Frieden im 1. Weltkrieg. Nach Kriegsende machte sie sich im Auftrag von Otto Bauer bei George Clemenceau, dem franz\xf6sischen Ministerpr\xe4sidenten, f\xfcr die Installierung einer interalliierten Lebensmittelkommission stark. 1922 setzte sie sich beim franz\xf6sischen Finanzminister f\xfcr die V\xf6lkerbundanleihe f\xfcr \xd6sterreich ein. F\xfcr ihr Bem\xfchen um den kulturellen Austausch zeichnete die franz\xf6sische Regierung sie 1929 mit dem Orden der Ehrenlegion aus. NS-\xd6sterreich vertrieb sie ins Exil.","Zentral in Zuckerkandls letztem Salon in ihrer 4-Zimmer-Wohnung neben dem Wiener Burgtheater war der riesige Diwan, entworfen von der Wiener Werkst\xe4tte. Hier empfing sie ihre G\xe4ste von 1917 bis zu ihrer Vertreibung ins Exil im Jahr 1939. Max Reinhardt, Egon Friedell, Arthur Schnitzler und Franz Werfel waren prominente G\xe4ste. Es trafen sich zum Diskurs, begleitet von einem legend\xe4r bescheidenen Imbiss, das Ensemble, die Dichter und Direktoren des Wiener Burgtheaters, die Familie ihrer in Frankreich verheirateten Schwester, die Stars der Zeit aus Politik, Kunst, Mode und Musik.","Der (neue) Wiener Frauenklub war seit 1903 Treffpunkt und Vereinssitz mehrerer effizient wirkender Frauenplattformen, Yella Hertzka zahlte eine Zeitlang die Miete. Hier gr\xfcndeten sich diverse Auskunftsstellen f\xfcr Fraueninteressen und Frauenberufe. Der Bund \xd6sterreichischer Frauenvereine bot eine breite Interessenlage in einer diversen politischen Orientierung: von Marianne Hainisch bis Rosa Mayreder, von Gl\xf6ckel, Fickert, Scheu-Riesz bis Mautner-Markhof \u2013 die f\xfchrenden Familien Wiens waren hier durch ihre Frauen vertreten.","Hier f\xfchrte Eugenie Schwarzwald, einer der ersten promovierten Wissenschafterinnen in \xd6sterreich, ab 1913 die seit 1911 bestehende Schule, ein M\xe4dchenrealgymnasium mit acht Klassen. Es war die erste Schule in \xd6sterreich an der M\xe4dchen maturieren konnten. Seit 1913 hatte die Schule ihre bereits zweite Adresse hier in Wien 1, Wallnerstra\xdfe 9 ident mit Herrengasse 10. Von den bekannten Schriftstellern und K\xfcnstlern, die sich im sp\xe4ter errichteten Literatencaf\xe9 Herrenhof im selben Haus trafen, konnte Schwarzwald einige als Lehrer gewinnen, darunter Oskar Kokoschka (Malen und Zeichnen), Adolf Loos (Architektur) und Egon Wellesz (Musik), Hans Kelsen (Soziologie und Volkswirtschaftslehre) und Otto Rommel (Literatur). Rommel fungierte von 1916 bis 1919 auch als Direktor. Edmund Bernatzik organisierte ab 1917, als Frauen noch nicht zum Rechtsstudium zugelassen waren, eine Rechtsakademie f\xfcr Frauen. Elsa Bienenfeld, Kultur-Kritikerin und Sch\xf6nberg-Sch\xfclerin, die erste Musikwissenschafts-Doktorin, war es, die Arnold Sch\xf6nberg f\xfcr die Schule gewann und ihm damit einen Verdienst sicherte.","Grete Rehor, gelernte Textilarbeiterin, war in vielen Funktionen die erste. Sie begann in der katholischen M\xe4dchenbewegung, wurde hauptamtliche Sekret\xe4rin im Zentralverband der christlichen Textilarbeiter und erstes weibliches Mitglied des Jugendbeirats der Wiener Arbeiterkammer. Verwitwet und alleinerziehend setzte sie sich nach der Befreiung \xd6sterreichs in der Fraktion Christlicher Gewerkschafter f\xfcr die Angleichung weiblicher L\xf6hne an jene ihrer m\xe4nnlichen Kollegen ein. Als Nationalratsabgeordnete von 1949 bis 1970 war sie die Stimme der berufst\xe4tigen Frauen und M\xfctter. Von 1966 bis 1970 \xfcbernahm sie mit dem Sozialressort als erste Frau \xd6sterreichs ein Ministeramt. In ihre Amtszeit fallen etwa das Arbeitsmarktf\xf6rderungsgesetz, das Berufsausbildungsgesetz, eine Reform des Arbeitsrechts, die Einf\xfchrung des 8. Dezember als Feiertag und eine reale Erh\xf6hung der Pensionen. Sie richtete in der Sektion Sozialpolitik eine eigene Abteilung f\xfcr frauenspezifische Fragen ein und initiierte j\xe4hrliche Berichte \xfcber die soziale Lage.","1912 dirigierte hier Bruno Walter ein Orchesterwerk der britischen Komponistin und Dichterin Ethel Smyth, gerade als diese im Gef\xe4ngnis f\xfcr ihren Einsatz f\xfcr das Frauenwahlrecht inhaftiert war. Ihre mit-inhaftierten Kameradinnen dirigierte sie im Gef\xe4ngnishof beim Gesang ihres \u201eMarch of the Women.\u201c ","1921 fand hier der Friedenskongress statt, ma\xdfgeblich organisiert von Yella Hertzka. Bei dieser Tagung wurde das Fundament f\xfcr die \u201eInternationale Frauenliga f\xfcr Frieden und Freiheit\u201c \u2013 \u201eWomen\xb4s international League f\xfcr Peace and Freedom\u201c gelegt. Der \xf6sterreichische Zweig der WILPF bestand einerseits aus einer Gruppe unter der Leitung von Yella Hertzka, die politische Propaganda betrieb, sowie aus einer Gruppe unter der Leitung von Rosa Mayreder. Sie alle sahen im Frauenstimmrecht den Schl\xfcssel zum Frieden, protestierten so gegen den Krieg und forderten auch die Mitwirkung der Frauen bei den Friedensverhandlungen. Auch die im Krieg so wichtigen Krankenpflegerinnen schlossen sich 1918 zusammen und gr\xfcndeten den \u201eFachverband der diplomierten Krankenpflegerinnen und Fu\u0308rsorgeschwestern\u201c, um ihre soziale Lage und Stellung zu verbessern."]),t.s)
-B.FX=A.a(s([16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15]),t.t)
-B.FY=A.a(s(['Als im Februar 1928 Josephine Baker im Wiener Theater Ronacher auftreten sollte, kam es im Parlament zu einer mehrst\xfcndigen Debatte. Der christlich-soziale Abgeordnete Anton Jerzabek hielt eine von theatralischen Zwischenrufen und von Gel\xe4chter unterbrochene Brandrede gegen Josephine Baker, erregte sich \xfcber ihre Kunst, \xfcber ihr Federn- und Perlenkost\xfcm und verglich sie mit "einer Wilden aus dem Kongo".',"Strohkoffer, heute der Keller unter der American Loos Bar: Alfred Schmeller, der Kunsthistoriker, fand f\xfcr den Artclub ein neues Lokal im K\xe4rntnerdurchgang, den Keller unter der American Bar, die Alfred Loos im Jahre 1908 entworfen hatte. Dieser K\xfcnstlerInnen-Treffpunkt, der seinen Namen nach den mit Strohmatten ausgelegten W\xe4nden hatte, bestand von 1951 bis 1953. Als 1952 das \u201ePorgy and Bess-Ensemble\u201c in Wien gastierte \u2013 bekanntlich hatte George Gershwin seine Oper f\xfcr black singers reserviert \u2013 war der Strohkoffer das einzige Lokal in Wien, wo die G\xe4ste willkommen waren \u2013 darunter Leontyne Price und Cab Calloway.","Als die Zeitungen vom \u201eN...skandal\u201c sprachen, die katholische Kirche Sondergottesdienste zur Bu\xdfe gegen Bakers \u201eschwere Verst\xf6\xdfe gegen die Moral\u201c organisierte und die Nationalsozialistische Deutsche Arbeiterpartei (NSDAP) Wiens gegen die \u201eobsz\xf6nen\u201c Auftritte protestierte, entzogen die Beh\xf6rden dem Ronacher-Theater 1928 die Bewilligung f\xfcr die Show. Erst 1932 durfte Baker im Ronacher ein gefeiertes Gastspiel geben, danach erst wieder 1958.","Im Ringstra\xdfen Hotel Bristol und im nahe gelegenen Ana Grand Hotel wohnte Josephine Baker mehrmals bei ihren Wien-Besuchen seit den 1920er Jahren. Von diesen Aufenthalten sind die Meldezettel \xfcberliefert mit ihrer eigenh\xe4ndigen Unterschrift. Die Bristol Hotels in ganz Europa nennen mittlerweile eine ihrer Suiten nach Josephine Baker.",'Josephine Baker trat 1928 in der Revue \u201eSchwarz auf Wei\xdf" im Johann Strau\xdf-Theater auf. Nach 1945 hie\xdf das Etablissement Scala-Theater. 1959 wurde das Theater, das \xfcber 1.000 Personen fasste, abgerissen.']),t.s)
+B.FU=A.a(s([B.bk,B.f6,B.KQ,B.bQ,B.aL]),A.af("B<h_>"))
+B.FV=A.a(s(["Das Cottage Lyzeum wurde 1903 gegr\xfcndet in einer Privatwohnung in der Kreindlgasse 3 als eine Privatschule f\xfcr M\xe4dchen, 1905 bereits mit \xd6ffentlichkeitsrecht ausgestattet. Yella Hertzka bezahlte die Miete; noch im selben Jahr stellte Hertzka der unter Platzmangel leidenden Schule ihr neu erbautes Haus in der Gymnasiumstra\xdfe 79 zur Verf\xfcgung. Eine Zeitlang beherbergte das Haus das Hans Kelsen Institut. 1921 musste Salome Goldmann, Hertzkas Co-Leiterin, wegen finanzieller Schwierigkeiten den Erhalt der Schule aufgeben, der von Eltern und Lehrern gegr\xfcndete Verein zur Erhaltung der D\xf6blinger M\xe4dchenmittelschule konnte die Schule jedoch weiterf\xfchren. Goldmann wurde in Theresienstadt ermordet, Hertzka konnte im Exil in Gro\xdfbritannien \xfcberleben.","Bei der Familie des Verlegers Moritz Szeps, dem Vater von Bertha Zuckerkandl, fanden opulente Festveranstaltungen statt, viele ber\xfchmte Wiener Pers\xf6nlichkeiten der damaligen Zeit verkehrten im Haus. Seit den 1930er-Jahren ist hier die Residenz des schwedischen Botschafters in Wien. Bertha Zuckerkandl stand als Kultur-Journalistin an der Seite der Wiener Kunstschaffenden, sie unterst\xfctzte besonders Gustav Klimt, war Mitbegr\xfcnderin unter anderem des Hagenbundes oder des Friedenswerkes Salzburger Festspiele. Sie \xfcbersetzte Theaterst\xfccke f\xfcr das Wienber Burgtheater, sie war politische Vermittlerin und bem\xfchte sich aktiv um Frieden im 1. Weltkrieg. Nach Kriegsende machte sie sich im Auftrag von Otto Bauer bei George Clemenceau, dem franz\xf6sischen Ministerpr\xe4sidenten, f\xfcr die Installierung einer interalliierten Lebensmittelkommission stark. 1922 setzte sie sich beim franz\xf6sischen Finanzminister f\xfcr die V\xf6lkerbundanleihe f\xfcr \xd6sterreich ein. F\xfcr ihr Bem\xfchen um den kulturellen Austausch zeichnete die franz\xf6sische Regierung sie 1929 mit dem Orden der Ehrenlegion aus. NS-\xd6sterreich vertrieb sie ins Exil.","Zentral in Zuckerkandls letztem Salon in ihrer 4-Zimmer-Wohnung neben dem Wiener Burgtheater war der riesige Diwan, entworfen von der Wiener Werkst\xe4tte. Hier empfing sie ihre G\xe4ste von 1917 bis zu ihrer Vertreibung ins Exil im Jahr 1939. Max Reinhardt, Egon Friedell, Arthur Schnitzler und Franz Werfel waren prominente G\xe4ste. Es trafen sich zum Diskurs, begleitet von einem legend\xe4r bescheidenen Imbiss, das Ensemble, die Dichter und Direktoren des Wiener Burgtheaters, die Familie ihrer in Frankreich verheirateten Schwester, die Stars der Zeit aus Politik, Kunst, Mode und Musik.","Der (neue) Wiener Frauenklub war seit 1903 Treffpunkt und Vereinssitz mehrerer effizient wirkender Frauenplattformen, Yella Hertzka zahlte eine Zeitlang die Miete. Hier gr\xfcndeten sich diverse Auskunftsstellen f\xfcr Fraueninteressen und Frauenberufe. Der Bund \xd6sterreichischer Frauenvereine bot eine breite Interessenlage in einer diversen politischen Orientierung: von Marianne Hainisch bis Rosa Mayreder, von Gl\xf6ckel, Fickert, Scheu-Riesz bis Mautner-Markhof \u2013 die f\xfchrenden Familien Wiens waren hier durch ihre Frauen vertreten.","Hier f\xfchrte Eugenie Schwarzwald, einer der ersten promovierten Wissenschafterinnen in \xd6sterreich, ab 1913 die seit 1911 bestehende Schule, ein M\xe4dchenrealgymnasium mit acht Klassen. Es war die erste Schule in \xd6sterreich an der M\xe4dchen maturieren konnten. Seit 1913 hatte die Schule ihre bereits zweite Adresse hier in Wien 1, Wallnerstra\xdfe 9 ident mit Herrengasse 10. Von den bekannten Schriftstellern und K\xfcnstlern, die sich im sp\xe4ter errichteten Literatencaf\xe9 Herrenhof im selben Haus trafen, konnte Schwarzwald einige als Lehrer gewinnen, darunter Oskar Kokoschka (Malen und Zeichnen), Adolf Loos (Architektur) und Egon Wellesz (Musik), Hans Kelsen (Soziologie und Volkswirtschaftslehre) und Otto Rommel (Literatur). Rommel fungierte von 1916 bis 1919 auch als Direktor. Edmund Bernatzik organisierte ab 1917, als Frauen noch nicht zum Rechtsstudium zugelassen waren, eine Rechtsakademie f\xfcr Frauen. Elsa Bienenfeld, Kultur-Kritikerin und Sch\xf6nberg-Sch\xfclerin, die erste Musikwissenschafts-Doktorin, war es, die Arnold Sch\xf6nberg f\xfcr die Schule gewann und ihm damit einen Verdienst sicherte.","Grete Rehor, gelernte Textilarbeiterin, war in vielen Funktionen die erste. Sie begann in der katholischen M\xe4dchenbewegung, wurde hauptamtliche Sekret\xe4rin im Zentralverband der christlichen Textilarbeiter und erstes weibliches Mitglied des Jugendbeirats der Wiener Arbeiterkammer. Verwitwet und alleinerziehend setzte sie sich nach der Befreiung \xd6sterreichs in der Fraktion Christlicher Gewerkschafter f\xfcr die Angleichung weiblicher L\xf6hne an jene ihrer m\xe4nnlichen Kollegen ein. Als Nationalratsabgeordnete von 1949 bis 1970 war sie die Stimme der berufst\xe4tigen Frauen und M\xfctter. Von 1966 bis 1970 \xfcbernahm sie mit dem Sozialressort als erste Frau \xd6sterreichs ein Ministeramt. In ihre Amtszeit fallen etwa das Arbeitsmarktf\xf6rderungsgesetz, das Berufsausbildungsgesetz, eine Reform des Arbeitsrechts, die Einf\xfchrung des 8. Dezember als Feiertag und eine reale Erh\xf6hung der Pensionen. Sie richtete in der Sektion Sozialpolitik eine eigene Abteilung f\xfcr frauenspezifische Fragen ein und initiierte j\xe4hrliche Berichte \xfcber die soziale Lage.","1912 dirigierte hier Bruno Walter ein Orchesterwerk der britischen Komponistin und Dichterin Ethel Smyth, gerade als diese im Gef\xe4ngnis f\xfcr ihren Einsatz f\xfcr das Frauenwahlrecht inhaftiert war. Ihre mit-inhaftierten Kameradinnen dirigierte sie im Gef\xe4ngnishof beim Gesang ihres \u201eMarch of the Women.\u201c ","1921 fand hier der Friedenskongress statt, ma\xdfgeblich organisiert von Yella Hertzka. Bei dieser Tagung wurde das Fundament f\xfcr die \u201eInternationale Frauenliga f\xfcr Frieden und Freiheit\u201c \u2013 \u201eWomen\xb4s international League f\xfcr Peace and Freedom\u201c gelegt. Der \xf6sterreichische Zweig der WILPF bestand einerseits aus einer Gruppe unter der Leitung von Yella Hertzka, die politische Propaganda betrieb, sowie aus einer Gruppe unter der Leitung von Rosa Mayreder. Sie alle sahen im Frauenstimmrecht den Schl\xfcssel zum Frieden, protestierten so gegen den Krieg und forderten auch die Mitwirkung der Frauen bei den Friedensverhandlungen. Auch die im Krieg so wichtigen Krankenpflegerinnen schlossen sich 1918 zusammen und gr\xfcndeten den \u201eFachverband der diplomierten Krankenpflegerinnen und Fu\u0308rsorgeschwestern\u201c, um ihre soziale Lage und Stellung zu verbessern."]),t.s)
+B.FW=A.a(s([16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15]),t.t)
+B.FX=A.a(s(['Als im Februar 1928 Josephine Baker im Wiener Theater Ronacher auftreten sollte, kam es im Parlament zu einer mehrst\xfcndigen Debatte. Der christlich-soziale Abgeordnete Anton Jerzabek hielt eine von theatralischen Zwischenrufen und von Gel\xe4chter unterbrochene Brandrede gegen Josephine Baker, erregte sich \xfcber ihre Kunst, \xfcber ihr Federn- und Perlenkost\xfcm und verglich sie mit "einer Wilden aus dem Kongo".',"Strohkoffer, heute der Keller unter der American Loos Bar: Alfred Schmeller, der Kunsthistoriker, fand f\xfcr den Artclub ein neues Lokal im K\xe4rntnerdurchgang, den Keller unter der American Bar, die Alfred Loos im Jahre 1908 entworfen hatte. Dieser K\xfcnstlerInnen-Treffpunkt, der seinen Namen nach den mit Strohmatten ausgelegten W\xe4nden hatte, bestand von 1951 bis 1953. Als 1952 das \u201ePorgy and Bess-Ensemble\u201c in Wien gastierte \u2013 bekanntlich hatte George Gershwin seine Oper f\xfcr black singers reserviert \u2013 war der Strohkoffer das einzige Lokal in Wien, wo die G\xe4ste willkommen waren \u2013 darunter Leontyne Price und Cab Calloway.","Als die Zeitungen vom \u201eN...skandal\u201c sprachen, die katholische Kirche Sondergottesdienste zur Bu\xdfe gegen Bakers \u201eschwere Verst\xf6\xdfe gegen die Moral\u201c organisierte und die Nationalsozialistische Deutsche Arbeiterpartei (NSDAP) Wiens gegen die \u201eobsz\xf6nen\u201c Auftritte protestierte, entzogen die Beh\xf6rden dem Ronacher-Theater 1928 die Bewilligung f\xfcr die Show. Erst 1932 durfte Baker im Ronacher ein gefeiertes Gastspiel geben, danach erst wieder 1958.","Im Ringstra\xdfen Hotel Bristol und im nahe gelegenen Ana Grand Hotel wohnte Josephine Baker mehrmals bei ihren Wien-Besuchen seit den 1920er Jahren. Von diesen Aufenthalten sind die Meldezettel \xfcberliefert mit ihrer eigenh\xe4ndigen Unterschrift. Die Bristol Hotels in ganz Europa nennen mittlerweile eine ihrer Suiten nach Josephine Baker.",'Josephine Baker trat 1928 in der Revue \u201eSchwarz auf Wei\xdf" im Johann Strau\xdf-Theater auf. Nach 1945 hie\xdf das Etablissement Scala-Theater. 1959 wurde das Theater, das \xfcber 1.000 Personen fasste, abgerissen.']),t.s)
 B.dY=new A.n7(0,"idle")
 B.wj=new A.n7(1,"loading")
 B.f5=new A.n7(2,"buffering")
 B.iM=new A.n7(3,"ready")
 B.wk=new A.n7(4,"completed")
-B.FZ=A.a(s([B.dY,B.wj,B.f5,B.iM,B.wk]),A.af("B<n7>"))
-B.G0=A.a(s([0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13]),t.t)
-B.G_=A.a(s([5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5]),t.t)
+B.FY=A.a(s([B.dY,B.wj,B.f5,B.iM,B.wk]),A.af("B<n7>"))
+B.G_=A.a(s([0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13]),t.t)
+B.FZ=A.a(s([5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5]),t.t)
 B.bC=new A.Cd(0,"upstream")
 B.N=new A.Cd(1,"downstream")
-B.G7=A.a(s([B.bC,B.N]),A.af("B<Cd>"))
+B.G6=A.a(s([B.bC,B.N]),A.af("B<Cd>"))
 B.aX=new A.Ch(0,"rtl")
 B.a4=new A.Ch(1,"ltr")
 B.hN=A.a(s([B.aX,B.a4]),A.af("B<Ch>"))
@@ -89084,73 +89083,74 @@ B.xI=new A.v9(1,"topRight")
 B.xJ=new A.v9(2,"bottomLeft")
 B.SK=new A.lF(B.xI,B.xJ)
 B.SL=new A.lF(B.xJ,B.xI)
-B.G8=A.a(s([B.SJ,B.SM,B.SK,B.SL]),A.af("B<lF>"))
-B.G9=A.a(s(["Constanze Geiger","Josefine Fr\xf6hlich","Gisela Frankl","Josephine Weinlich-Amann","Zum Goldenen Lamm","Dreher\u2019s Etablissement ","Weltausstellung. Josephine Weinlich ","Constanze Geiger"]),t.s)
+B.G7=A.a(s([B.SJ,B.SM,B.SK,B.SL]),A.af("B<lF>"))
+B.G8=A.a(s(["Constanze Geiger","Josefine Fr\xf6hlich","Gisela Frankl","Josephine Weinlich-Amann","Zum Goldenen Lamm","Dreher\u2019s Etablissement ","Weltausstellung. Josephine Weinlich ","Constanze Geiger"]),t.s)
 B.zA=new A.qZ()
 B.iV=new A.Ob(1,"page")
 B.iW=new A.fr(B.O,B.iV)
-B.Ga=A.a(s([B.zA,B.iW]),A.af("B<b7>"))
-B.Gb=A.a(s(["St. Marxer Friedhof","Rasumovskygasse 29","Ungargasse 46","B\xe4ckerstra\xdfe 13, Postgasse 5-7","St. Michael Kirche","Rabensteig 8","Helferstorferstrasse, Kleines Basteihaus,","Himmelpfortgasse 6","Kohlmarkt Michaelerhaus","Augustiner Kirche","Karlsplatz, Gesellschaft der Musikfreunde","Ecke Florianigasse/ Kochgasse"]),t.s)
-B.Gc=A.a(s([3,4,5,6,7,8,9,10,11,13,15,17,19,23,27,31,35,43,51,59,67,83,99,115,131,163,195,227,258]),t.t)
+B.G9=A.a(s([B.zA,B.iW]),A.af("B<b7>"))
+B.Ga=A.a(s(["St. Marxer Friedhof","Rasumovskygasse 29","Ungargasse 46","B\xe4ckerstra\xdfe 13, Postgasse 5-7","St. Michael Kirche","Rabensteig 8","Helferstorferstrasse, Kleines Basteihaus,","Himmelpfortgasse 6","Kohlmarkt Michaelerhaus","Augustiner Kirche","Karlsplatz, Gesellschaft der Musikfreunde","Ecke Florianigasse/ Kochgasse"]),t.s)
+B.Gb=A.a(s([3,4,5,6,7,8,9,10,11,13,15,17,19,23,27,31,35,43,51,59,67,83,99,115,131,163,195,227,258]),t.t)
 B.m2=A.a(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
 B.m3=A.a(s([0,0,32776,33792,1,10240,0,0]),t.t)
 B.c6=A.a(s([82,9,106,213,48,54,165,56,191,64,163,158,129,243,215,251,124,227,57,130,155,47,255,135,52,142,67,68,196,222,233,203,84,123,148,50,166,194,35,61,238,76,149,11,66,250,195,78,8,46,161,102,40,217,36,178,118,91,162,73,109,139,209,37,114,248,246,100,134,104,152,22,212,164,92,204,93,101,182,146,108,112,72,80,253,237,185,218,94,21,70,87,167,141,157,132,144,216,171,0,140,188,211,10,247,228,88,5,184,179,69,6,208,44,30,143,202,63,15,2,193,175,189,3,1,19,138,107,58,145,17,65,79,103,220,234,151,242,207,206,240,180,230,115,150,172,116,34,231,173,53,133,226,249,55,232,28,117,223,110,71,241,26,113,29,41,197,137,111,183,98,14,170,24,190,27,252,86,62,75,198,210,121,32,154,219,192,254,120,205,90,244,31,221,168,51,136,7,199,49,177,18,16,89,39,128,236,95,96,81,127,169,25,181,74,13,45,229,122,159,147,201,156,239,160,224,59,77,174,42,245,176,200,235,187,60,131,83,153,97,23,43,4,126,186,119,214,38,225,105,20,99,85,33,12,125]),t.t)
 B.j3=new A.BQ(0,"none")
 B.j4=new A.BQ(1,"all")
-B.Ge=A.a(s([B.j3,B.j4]),A.af("B<BQ>"))
+B.Gd=A.a(s([B.j3,B.j4]),A.af("B<BQ>"))
 B.dy=A.a(s([0,79764919,159529838,222504665,319059676,398814059,445009330,507990021,638119352,583659535,797628118,726387553,890018660,835552979,1015980042,944750013,1276238704,1221641927,1167319070,1095957929,1595256236,1540665371,1452775106,1381403509,1780037320,1859660671,1671105958,1733955601,2031960084,2111593891,1889500026,1952343757,2552477408,2632100695,2443283854,2506133561,2334638140,2414271883,2191915858,2254759653,3190512472,3135915759,3081330742,3009969537,2905550212,2850959411,2762807018,2691435357,3560074640,3505614887,3719321342,3648080713,3342211916,3287746299,3467911202,3396681109,4063920168,4143685023,4223187782,4286162673,3779000052,3858754371,3904687514,3967668269,881225847,809987520,1023691545,969234094,662832811,591600412,771767749,717299826,311336399,374308984,453813921,533576470,25881363,88864420,134795389,214552010,2023205639,2086057648,1897238633,1976864222,1804852699,1867694188,1645340341,1724971778,1587496639,1516133128,1461550545,1406951526,1302016099,1230646740,1142491917,1087903418,2896545431,2825181984,2770861561,2716262478,3215044683,3143675388,3055782693,3001194130,2326604591,2389456536,2200899649,2280525302,2578013683,2640855108,2418763421,2498394922,3769900519,3832873040,3912640137,3992402750,4088425275,4151408268,4197601365,4277358050,3334271071,3263032808,3476998961,3422541446,3585640067,3514407732,3694837229,3640369242,1762451694,1842216281,1619975040,1682949687,2047383090,2127137669,1938468188,2001449195,1325665622,1271206113,1183200824,1111960463,1543535498,1489069629,1434599652,1363369299,622672798,568075817,748617968,677256519,907627842,853037301,1067152940,995781531,51762726,131386257,177728840,240578815,269590778,349224269,429104020,491947555,4046411278,4126034873,4172115296,4234965207,3794477266,3874110821,3953728444,4016571915,3609705398,3555108353,3735388376,3664026991,3290680682,3236090077,3449943556,3378572211,3174993278,3120533705,3032266256,2961025959,2923101090,2868635157,2813903052,2742672763,2604032198,2683796849,2461293480,2524268063,2284983834,2364738477,2175806836,2238787779,1569362073,1498123566,1409854455,1355396672,1317987909,1246755826,1192025387,1137557660,2072149281,2135122070,1912620623,1992383480,1753615357,1816598090,1627664531,1707420964,295390185,358241886,404320391,483945776,43990325,106832002,186451547,266083308,932423249,861060070,1041341759,986742920,613929101,542559546,756411363,701822548,3316196985,3244833742,3425377559,3370778784,3601682597,3530312978,3744426955,3689838204,3819031489,3881883254,3928223919,4007849240,4037393693,4100235434,4180117107,4259748804,2310601993,2373574846,2151335527,2231098320,2596047829,2659030626,2470359227,2550115596,2947551409,2876312838,2788305887,2733848168,3165939309,3094707162,3040238851,2985771188]),t.t)
 B.cI=A.a(s(["a","b","c"]),t.s)
-B.Gf=A.a(s(["assets/audio/demokratie_audio/odd_gymnasiumstrasse79.mp3","assets/audio/demokratie_audio/odd_strudlhofstiege.mp3","assets/audio/demokratie_audio/odd_oppolzergasse6.mp3","assets/audio/demokratie_audio/odd_grabentuchlauben11.mp3","assets/audio/demokratie_audio/odd_wallnerstrasse9.mp3","assets/audio/demokratie_audio/odd_drkarlrennerring1.mp3","assets/audio/demokratie_audio/odd_lothringerstrasse20.mp3","assets/audio/demokratie_audio/odd_karlsplatz.mp3"]),t.s)
-B.Gg=A.a(s(['Das Palais Coburg mag zuerst Assoziationen zu Johann Strauss wecken, der ja 1886 ein B\xfcrger von Coburg Sachsen wurde. Und tats\xe4chlich, zwischen Constanze Geiger und Johann Strauss bestand eine wertsch\xe4tzende Beziehung, belegt durch eine originelle Widmung. Und zwar so: Constanze Geiger, die mit 18 Jahren den kaiserlichen Verm\xe4hlungsmarsch f\xfcr Kaiserin Elisabeth komponierte, heiratete am 23. April 1862 den Prinzen Leopold von Sachsen-Coburg und Gotha und wurde mit dieser morganatischen Ehe \u2013 das hei\xdft, sie entsprach nicht dem gesellschaftlichen Stand des Mannes \u2013 in den Freifrauenstand erhoben. Mit der Hochzeit zog sie sich \u2013 wie es f\xfcr Frauen gesellschaftlich zu gelten hatte \u2013 von der B\xfchne g\xe4nzlich zur\xfcck und lebte mit ihrer Familie auf Schloss Radmeric im heutigen Tschechien. Ihre Kompositionen f\xfcr Kammer- und Kirchenmusik wurden aber weiterhin aufgef\xfchrt. Nach dem Tod ihres Mannes zog sie nach Paris. Dort starb sie; Constanze Geiger wurde auf dem Friedhof Montmartre beerdigt. Drei Monate nach der Geburt von Constanzes Sohn Franz im Jahr 1860 f\xfchrte Johann Strauss seinen Prinz Leopold gewidmeten \u201eGrillenbanner" - Walzer op. 247 auf, dessen Titel keineswegs auf die singenden Insekten anspielt, sondern auf den \xc4rger im Haus Coburg wegen der morganatischen Ehe Bezug nimmt. \u201eGrille" ist n\xe4mlich ein anderer Ausdruck f\xfcr \u201eLaune, verr\xfcckte Idee".','Josefine Pepi Fr\xf6hlich, geboren 1803 auf der Wieden, gestorben 1878 in Wien, war S\xe4ngerin, Gesangslehrerin und Komponistin. Sie war eine von f\xfcnf Komponistinnen, die 1854 f\xfcr Kaiserin Elisabeths Huldigungskassette beauftragt wurden, eine "Huldigung der Tonsetzer Wiens", dem Hochzeitsgeschenk f\xfcr das Kaiserpaar. Sie beteiligte sich mit dem Werk \u201eErinnerung", der Vertonung eines Grillparzer-Textes, der ihr Mitbewohner in der Spiegelgasse 1 war. Die vier Fr\xf6hlich - Schwestern Anna, Barbara, Katharina und Josefine wuchsen in einem gutb\xfcrgerlichen, von Musik gepr\xe4gten Umfeld auf und erhielten vermutlich schon als Kinder Unterricht im Klavierspiel und Gesang. Josefine Fr\xf6hlich wurde in den Jahren 1819 bis 1821 von ihrer zehn Jahre \xe4lteren Schwester Anna an der Singschule der Gesellschaft der Musikfreunde unterrichtet. Sp\xe4ter wurde sie vom italienischen S\xe4nger Giuseppe Siboni ausgebildet. Am 12. Juni 1821 deb\xfctierte sie als "Constanze" in Mozarts \u201eEntf\xfchrung aus dem Serail" am K\xe4rntnertortheater. In Kopenhagen und Schweden, an Opernh\xe4usern in Dresden, Prag, Venedig und Mailand wurde sie gefeiert. Die k\xfcnstlerisch begabten jungen Frauen bildeten einen Mittelpunkt im b\xfcrgerlichen Wiener Kulturleben und pr\xe4gten es entscheidend mit. Zu ihren Bekannten z\xe4hlten Franz Grillparzer, Franz Schubert, die Familien Sonnleithner und Kiesewetter. Ab den 1860er Jahren waren sie mit Marie von Ebner-Eschenbach befreundet. Sowohl Schubert als auch Grillparzer schufen Werke f\xfcr Josefine Fr\xf6hlich. Bereits ab 1815 schien Josefine Fr\xf6hlich im Mitglieder-Verzeichnis der Gesellschaft der Musikfreunde als aus\xfcbendes Mitglied auf. Ungef\xe4hr ab diesem Zeitpunkt trat sie gemeinsam mit ihren Schwestern Anna und Barbara bei den musikalischen Abenden der Familie Sonnleithner auf. Joseph Sonnleithner war jener Sekret\xe4r, der im Namen der Fanny von Arnstein die Gr\xfcndung des Wiener Musikvereins vollzog. Bei Veranstaltungen im privaten bzw. halb\xf6ffentlichen Bereich trug Josefine Fr\xf6hlich auch nach ihrer internationalen Karriere Lieder vor. Sie lebte mit ihren Schwestern in der Spiegelgasse 21, mit Franz Grillparzer im gemeinsamen Haushalt. Josefine Fr\xf6hlich wurde am Hietzinger Friedhof bestattet.','Gesellschaft der Musikfreunde Konservatorium. Im Jahr 1880 hat Gisela Frankl \u2013 Pianistin und Komponistin \u2013 hier studiert. 1881 widmete sie Kronprinz Rudolf anl\xe4sslich dessen Verm\xe4hlung mit Stephanie von Belgien die Komposition \u201eHochzeits-Hymne", die in Anwesenheit des Kronprinzen uraufgef\xfchrt wurde. Gisela Frankl, 1860 in Wien geboren, war die Tochter eines Hof- und Gerichtsadvokaten. Sie verbrachte ihre ersten Lebensjahre in der Leopoldstadt, ehe die Familie Ende der 1860er Jahre zun\xe4chst nach Oberd\xf6bling und danach in die Innere Stadt \xfcbersiedelte. Gisela Frankl z\xe4hlte zu den ersten Sch\xfclerinnen der vierklassigen "H\xf6heren Bildungsschule f\xfcr M\xe4dchen", die 1871 vom Wiener Frauen-Erwerb-Verein gegr\xfcndet worden war. Zus\xe4tzlich erhielt sie Privatunterricht in Franz\xf6sisch und Englisch. Ab dem achten Lebensjahr erhielt sie Klavierunterricht, unter anderem bei Josef Dachs, dem sie sp\xe4ter ihr Werk \u201eMazurka de Salon" op. 25 widmen sollte. Im Studienjahr 1873/1874 wurde sie am  Konservatorium der Gesellschaft der Muskfreunde in Wien als Sch\xfclerin der \u201eVorbildungsschule" im Fach Klavier gef\xfchrt. Anschlie\xdfend wechselte sie an die \u201eClavierschule Ungar", wo sie beim Direktor des Instituts, Prof. Ungar, Klavier studierte, sich auch in Kontrapunkt und Komposition ausbildete. 1880 legte sie die Staatspr\xfcfung als \u201e\xf6ffentliche Lehrerin f\xfcr Clavier und Harmonielehre" mit Auszeichnung ab und gr\xfcndete selbst ein Musikinstitut. Um das Jahr 1892 unternahm Gisela Frankl \u2013 vermutlich gemeinsam mit ihrer Schwester, der Malerin Regine Frankl \u2013 eine Tournee in Nordamerika. Ihre Werke erschienen in Folge regelm\xe4\xdfig in Druck, 1890 waren rund 50 ihrer Kompositionen bei verschiedenen Verlegern erschienen.',"Hier befand sich der Wohnort und das B\xfcro der Musikproduktionst\xe4tigkeit von Josephine Weinlich. Josephine Weinlich-Amann, geboren 1848, war Pianistin, Violinistin, Komponistin und Dirigentin. Sie gr\xfcndete in Wien Ende der 1860er Jahre das erste europ\xe4ische Damenorchester, das bis 1879 als \u201eWeinlichsches Damenorchester\u201c oder als \u201eWiener Damencapelle\u201c bekannt war. Wien erinnert sich an die Komponistin, Dirigentin, Geigerin und Orchestergr\xfcnderin. Seit 2018 gibt es in Floridsdorf die Weinlich-Amann-Gasse.","Der Gasthof zum Goldenen Lamm war Treffpunkt f\xfcr Politiker und K\xfcnstler:innen. Im Goldenen Lamm wohnte w\xe4hrend seiner Wiener Aufenthalte der tschechische Komponist Anton\xedn Dvo\u0159\xe1k \u2013 was eine Tafel auf der Stra\xdfenseite auch vermerkt. Nicht vermerkt ist: Hier lernten sich die Pianistin und Komponistin Constanze Geiger und Prinz Leopold von Sachsen-Coburg kennen. Geiger war eine von f\xfcnf Komponistinnen, die f\xfcr das Kaiserin Elisabeth Huldigungsalbum komponierten. Das Geb\xe4ude des Goldenen Lamms wurde 1760 errichtet, 1823 durch B\xfcrgermeister Josef Klee aufgestockt und erhielt sp\xe4ter eine fr\xfchhistoristische Fassade. Als sich der Besitzer entschloss, von seinem Gasthof aus Stellwagen zu betreiben, die nach Brunn am Gebirge, M\xf6dling, Eisenstadt und Hainburg abgingen, erlebte dieser Gasthof eine Bl\xfctezeit. Weltweit waren Verkehrsknotenpunkte auch Zentren der Unterhaltungsmusik. Der Erfolg veranlasste auch andere Gasth\xf6fe Stellfuhrunternehmungen ins Leben zu rufen.",'Um die Mitte des 19. Jahrhunderts entstand auf der Landstra\xdfer Hauptstra\xdfe aus zwei kleinen Gasth\xe4usern, die der Brauereibesitzer Anton Dreher senior gekauft hatte, ein vornehm ausgestattetes Gasthauslokal mit gro\xdfem Gastgarten: \u201eDrehers Etablissement". Er\xf6ffnet am 25. Dezember 1859, war es eines der gr\xf6\xdften Gastlokale Wiens. Wie \xfcblich im 19. Jahrhundert, noch bevor der Gr\xfcndung der gro\xdfen Konzertinstitutionen, gab es einen Konzert- und Tanzsaal. Hier fanden zum Beispiel die Liedertafel des Arbeiter-S\xe4ngerbundes statt oder Arbeiter-B\xe4lle. Auch \u201egro\xdfe Politik" wurde in \u201eDrehers Etablissement" gemacht: Friedrich Adler und Otto Bauer waren unter den Rednern. Nach dem Zweiten Weltkrieg wurde der Gastst\xe4ttenbetrieb einer kompletten Erneuerung unterzogen und unter dem Namen \u201eSchwechaterhof" weitergef\xfchrt. Ende der achtziger Jahre wurde der Schwechater Hof zur Galleria. Genau hier schreibt Josephine Weinlich Musikgeschichte. Sie gr\xfcndet das erste europ\xe4ische Frauenorchester und tritt mit ihren Kolleginnen in der Bierhalle von Anton Dreher auf. Seit 2018 gibt es in Floridsdorf die Weinlich-Amann-Gasse benannt nach  Josephine Amann-Weinlich, Dirigentin, Musikerin, Komponistin. Sie geh\xf6rte zu den ersten berufsm\xe4\xdfigen Geigerinnen und gr\xfcndete 1868 in Wien das erste nur aus Frauen bestehende Ensemble.','1873 spielte das Josephine Weinlich Orchester w\xe4hrend der Wiener Weltausstellung in den Blumens\xe4len der k. k. Gartenbaugesellschaft. Der Vater hatte ihr die Musik-Agentur T\xe4tigkeit in die Wiege gelegt. Dem \u201eIllustrierten Wiener Extrablatt\u201c zufolge hatte der beg\xfcterte Industrielle Franz Weinlich im Zuge der Revolution 1848 sein Verm\xf6gen verloren und sich daraufhin eine \u201eKonzession zur Leitung einer Volkss\xe4nger-Gesellschaft\u201c sowie \u201eseinen T\xf6chtern eine Lizenz zum \u201aAuftreten\u2018\u201c verschafft. Erst gr\xfcndete Josephine Weinlich ein Damenquartett, dann konnte das erste Frauenorchester Europas gebildet werden. Als \u201eWeinlichsches Damenorchester" \u201eWiener Damencapelle" oder \u201eWiener Damenorchester" unternahm es Tourneen durch \xd6sterreich-Ungarn, Italien und Deutschland bis Nordamerika und Russl\xf6and. Das Repertoire umfasste zeitgen\xf6ssische Unterhaltungsmusik wie Tanzkompositionen, Ouvert\xfcren und Opernst\xfccke. Josefine Weinlich leitete wie die Strauss-Br\xfcder das Orchester zun\xe4chst von der Violine und komponierte auch selbst.'," 23. April 1854, ein sch\xf6ner Fr\xfchlingstag um die Mittagszeit. S\xe4mtliche H\xe4user, das ganze Ufer der Donau ist an jenem Tag mit Menschen ges\xe4umt. So dicht, dass kein Verkehr mehr m\xf6glich war. Anlass war die Ankunft der zuk\xfcnftigen Kaiserin Sisi, der Braut von Franz Joseph, die mit dem Schiff aus Bayern anreiste und nun endlich Wien erreichte. Ganz Nu\xdfdorf war aus dem H\xe4uschen, Gro\xdf und Klein war auf den Beinen, ganz nach dem Motto: \u201cGemma Kaiserbraut schau\u2019n.\u201d B\xf6llersch\xfcsse k\xfcndigen das Schiff mit der herannahenden Teenager-Braut an. Musik geh\xf6rt dazu. Unter den Kompositionen, die zur allerh\xf6chsten Ankunft in Auftrag gegeben wurden, war auch Constanze Geigers kaiserlicher Verm\xe4hlungsmarsch, gewidmet Kaiserin Elisabeth. Constanze Geiger war ein Kinderstar und Wunderkind, Pianistin, Theaterschauspielerin, Komponistin und S\xe4ngerin. Die Wienerin Geiger, geboren 1835, war die Tochter des Komponisten Joseph Geiger und der Hofmodistin Theresia Geiger; sie lernte Klavier bei Johann Wenzel Tomaschek und Simon Sechter, trat bereits mit 6 Jahren erfolgreich als Konzertpianistin auf und absolvierte Gastspiele in ganz Europa. Mit 18 Jahren komponierte sie den \u201eElisabethen-Verm\xe4hlungsmarsch\u201c, der erstmals erklang am 21. April 1854 bei der Ankunft von Herzogin Elisabeth in Bayern."]),t.s)
-B.Gh=A.a(s(["Hier lebte die in Amstetten geborene Komponistin und Organistin Maria Francisca Fiederica Hofer (1894-1977). Sie war eingeladen und gef\xf6rdert von der Verlegerin und Gartenbauschul-Gr\xfcnderin Yella Hertzka. Maria Hofer studierte unter anderem bei Rudolf Dittrich, wirkte als Organistin im Wiener Stephansdom und im Dom zu Salzburg. Sie trat als Konzertpianistin, auch mit eigenen Werken, im Wiener Konzerthaus auf. Ihr Werk ist von ihrer katholischen Gl\xe4ubigkeit bestimmt wie von ihrer Virtuosit\xe4t. 1938 zog sie nach Kitzb\xfchel. Als Folge ihrer Mitarbeit in der von Yella Hertzka mitbegr\xfcndeten \u201eInternationalen Frauenliga f\xfcr Frieden und Freiheit in \xd6sterreich\u201c wurde sie mehrmals von der Gestapo verhaftet. Maria Hofer stand nach 1945 bis zu Hertzkas Tod 1948 mit ihr in engem Kontakt.","Hier wurde die Komponistin Lisa Maria Mayer 1894 geboren. Ihr Erfolg als Komponistin von \xfcber 50 Werken ist auch durch die Drucklegung bei der Universaledition dokumentiert. Als konvertierte J\xfcdin in einer Ehe mit dem Nichtjuden Josef Gaberle in Wien geduldet, war sie den Schikanen des NS-Regimes ausgesetzt, durfte weder unterrichten noch auftreten und \xfcberlebte mit schweren gesundheitlichen Beeintr\xe4chtigungen. Von 1945 bis 1948 war Lisa Maria Mayer (1894-1928) am Konservatorium der Stadt Wien angestellt. Der 1888 begr\xfcndete Club der Wiener Musikerinnen in Wien Alsergrund bot ihr zahlreiche Auftrittsm\xf6glichkeiten. Er wurde 1938 aufgel\xf6st.","Valerie Pick, verheiratete Vally Weigl (1894-1982) war eine der Absolventinnen dieser Schule, die einzige, an der eine Matura f\xfcr M\xe4dchen erlaubt war. Nach ihren Studien in Musikwissenschaft und Philosophie an der Universit\xe4t Wien nahm sie auch Kompositionsunterricht bei Karl Weigl, den sie 1921 heiratete. Sie fl\xfcchtete vor dem NS Regime in die USA, ihre Schwester K\xe4the Leichter \xfcberlebte den Holocaust nicht. Vally Weigls Verdienste sind nicht nur zahlreiche Kompositionen f\xfcr Stimme und kleinere Ensembles, sondern auch die Pionierarbeit in Musiktherapie, die sie begann, als sie selbst betroffen nach einer Schulterverletzung war.","Der Verlag, 1919 mit Hilfe von Robert Stolz gegr\xfcndet, bestand bis ins Jahr 1941. 1927 wurde hier, im Wiener Boh\xe8me Verlag, die erste und erfolgreichste Komposition der Hilda L\xf6we (1895-1976) ver\xf6ffentlicht, das Chanson Das alte Lied, das sie f\xfcr Raoul Aslan geschrieben und zu dem Fritz L\xf6hner den Text verfasst hatte. Auf Anraten des Verlags w\xe4hlte die Komponistin f\xfcr die Ver\xf6ffentlichung ein Pseudonym: Henry Love. Unter diesem Namen ver\xf6ffentlichte sie zahlreiche weitere Schlager und Chansons. Sie hatte an der Akademie f\xfcr Musik und darstellende Kunst, damals im Komplex des Wiener Konzerthauses, als Pianistin und Komponistin im Jahr 1914 mit vorz\xfcglichem Erfolg abgeschlossen. Im Wiener Konzerthaus sind zahlreiche Auftritte mit Kammermusik und Chansons dokumentiert.1934 heiratete Hilda Loewe den Wiener B\xfchnenbildner und Maler Joseph Otto Flatter, mit dem sie im selben Jahr nach Gro\xdfbritannien emigrierte.","Die T\xe4nzerin, S\xe4ngerin, Komponistin und Autorin Anita Bild, geborene Lelewer (1915-2012) maturierte am Gymnasium in der Rahlgasse. Nach ihrer Ballettausbildung am Neuen Wiener Konservatorium folgten Engagements an Theatern in Basel, Baden, Wien und Kairo sowie eine Kooperation mit dem Tenor Richard Tauber. Ihre Karriere als T\xe4nzerin wurde 1938 beendet. Sie fl\xfcchtete mit einem Domestic Permit 1939 nach England und konnte wieder als T\xe4nzerin, S\xe4ngerin und Schauspielerin arbeiten. Sie wirkte ab 1950 bei der BBC als Drehbuchautorin und als Leiterin des deutschen Senders. Sie starb 2012 in London.","Hier befand sich von Mitte der 20er Jahre bis zum Bau des Funkhauses die Sendeanlage von Radio Wien in einer ehemaligen Schule. Radio Wien sendete die Lieder der in der NS Zeit vertriebenen Komponistinnen, von Hilda L\xf6we aber auch von Harry Harald, Pseudonym von Hilda Geiringer. Diese Hilda Geiringer, geboren 1898, alias Harry Harald, ging 1938 ins Exil nach London und emigrierte 1940 weiter nach Pennsylvania, wo sie auch 1977 starb.","Camilla Frydan, eigentlich Camilla Herzl, Pseudonym Camilla Herzer (1887-1949), hatte Klavier, Harmonielehre und Komposition am Konservatorium der Gesellschaft der Musikfreunde studiert. Im Alter von f\xfcnf Jahren gab sie ihr erstes Konzert im Wiener Ehrbar-Saal. Sie wirkte als Dirigentin und S\xe4ngerin ihrer Werke, war Textdichterin und Co-Autorin des Prominenten Almanachs. Sie trat nicht nur im Etablissement Simpl auf, sondern auch im Kabarett Fledermaus, oft gemeinsam mit ihrem Schwager Egon Friedell, mit Peter Altenberg oder Alfred Polgar. Sie fl\xfcchtete 1938 ins Exil in die USA, wo sie 1945 einen eigenen Verlag gr\xfcndete.","Josefine Winter, Edle von Wigmar (1873-1943) war Malerin, Komponistin und Schriftstellerin. Nach privaten Studien wurde sie 1903 Studentin von Josef Bohuslav Foerster am Neuen Wiener Konservatorium. In erster Ehe wohnte sie hier mit Alfred Fr\xf6hlich von Feldau, in zweiter Ehe mit dem Dichter Josef von Winter. Sie komponierte vor allem Lieder. Josefine Winter von einer Sammelwohnung im zweiten Bezirk im Jahr 1942 ins KZ Theresienstadt deportiert und 1943 dort ermordet. Vertrieben aus ihrer Villa im W\xe4hringer Cottage vers\xe4umte sie die M\xf6glichkeit, die sie dank ihres Verm\xf6gens und ihres Netzwerkes gehabt h\xe4tte, ins Exil zu gehen. Sie z\xf6gerte zu lange und erlebte die Arisierung ihres Verm\xf6gens und die Deportation."]),t.s)
-B.Gi=A.a(s([1,2,4,8,16,32,64,128,27,54,108,216,171,77,154,47,94,188,99,198,151,53,106,212,179,125,250,239,197,145]),t.t)
+B.Ge=A.a(s(["assets/audio/demokratie_audio/odd_gymnasiumstrasse79.mp3","assets/audio/demokratie_audio/odd_strudlhofstiege.mp3","assets/audio/demokratie_audio/odd_oppolzergasse6.mp3","assets/audio/demokratie_audio/odd_grabentuchlauben11.mp3","assets/audio/demokratie_audio/odd_wallnerstrasse9.mp3","assets/audio/demokratie_audio/odd_drkarlrennerring1.mp3","assets/audio/demokratie_audio/odd_lothringerstrasse20.mp3","assets/audio/demokratie_audio/odd_karlsplatz.mp3"]),t.s)
+B.Gf=A.a(s(['Das Palais Coburg mag zuerst Assoziationen zu Johann Strauss wecken, der ja 1886 ein B\xfcrger von Coburg Sachsen wurde. Und tats\xe4chlich, zwischen Constanze Geiger und Johann Strauss bestand eine wertsch\xe4tzende Beziehung, belegt durch eine originelle Widmung. Und zwar so: Constanze Geiger, die mit 18 Jahren den kaiserlichen Verm\xe4hlungsmarsch f\xfcr Kaiserin Elisabeth komponierte, heiratete am 23. April 1862 den Prinzen Leopold von Sachsen-Coburg und Gotha und wurde mit dieser morganatischen Ehe \u2013 das hei\xdft, sie entsprach nicht dem gesellschaftlichen Stand des Mannes \u2013 in den Freifrauenstand erhoben. Mit der Hochzeit zog sie sich \u2013 wie es f\xfcr Frauen gesellschaftlich zu gelten hatte \u2013 von der B\xfchne g\xe4nzlich zur\xfcck und lebte mit ihrer Familie auf Schloss Radmeric im heutigen Tschechien. Ihre Kompositionen f\xfcr Kammer- und Kirchenmusik wurden aber weiterhin aufgef\xfchrt. Nach dem Tod ihres Mannes zog sie nach Paris. Dort starb sie; Constanze Geiger wurde auf dem Friedhof Montmartre beerdigt. Drei Monate nach der Geburt von Constanzes Sohn Franz im Jahr 1860 f\xfchrte Johann Strauss seinen Prinz Leopold gewidmeten \u201eGrillenbanner" - Walzer op. 247 auf, dessen Titel keineswegs auf die singenden Insekten anspielt, sondern auf den \xc4rger im Haus Coburg wegen der morganatischen Ehe Bezug nimmt. \u201eGrille" ist n\xe4mlich ein anderer Ausdruck f\xfcr \u201eLaune, verr\xfcckte Idee".','Josefine Pepi Fr\xf6hlich, geboren 1803 auf der Wieden, gestorben 1878 in Wien, war S\xe4ngerin, Gesangslehrerin und Komponistin. Sie war eine von f\xfcnf Komponistinnen, die 1854 f\xfcr Kaiserin Elisabeths Huldigungskassette beauftragt wurden, eine "Huldigung der Tonsetzer Wiens", dem Hochzeitsgeschenk f\xfcr das Kaiserpaar. Sie beteiligte sich mit dem Werk \u201eErinnerung", der Vertonung eines Grillparzer-Textes, der ihr Mitbewohner in der Spiegelgasse 1 war. Die vier Fr\xf6hlich - Schwestern Anna, Barbara, Katharina und Josefine wuchsen in einem gutb\xfcrgerlichen, von Musik gepr\xe4gten Umfeld auf und erhielten vermutlich schon als Kinder Unterricht im Klavierspiel und Gesang. Josefine Fr\xf6hlich wurde in den Jahren 1819 bis 1821 von ihrer zehn Jahre \xe4lteren Schwester Anna an der Singschule der Gesellschaft der Musikfreunde unterrichtet. Sp\xe4ter wurde sie vom italienischen S\xe4nger Giuseppe Siboni ausgebildet. Am 12. Juni 1821 deb\xfctierte sie als "Constanze" in Mozarts \u201eEntf\xfchrung aus dem Serail" am K\xe4rntnertortheater. In Kopenhagen und Schweden, an Opernh\xe4usern in Dresden, Prag, Venedig und Mailand wurde sie gefeiert. Die k\xfcnstlerisch begabten jungen Frauen bildeten einen Mittelpunkt im b\xfcrgerlichen Wiener Kulturleben und pr\xe4gten es entscheidend mit. Zu ihren Bekannten z\xe4hlten Franz Grillparzer, Franz Schubert, die Familien Sonnleithner und Kiesewetter. Ab den 1860er Jahren waren sie mit Marie von Ebner-Eschenbach befreundet. Sowohl Schubert als auch Grillparzer schufen Werke f\xfcr Josefine Fr\xf6hlich. Bereits ab 1815 schien Josefine Fr\xf6hlich im Mitglieder-Verzeichnis der Gesellschaft der Musikfreunde als aus\xfcbendes Mitglied auf. Ungef\xe4hr ab diesem Zeitpunkt trat sie gemeinsam mit ihren Schwestern Anna und Barbara bei den musikalischen Abenden der Familie Sonnleithner auf. Joseph Sonnleithner war jener Sekret\xe4r, der im Namen der Fanny von Arnstein die Gr\xfcndung des Wiener Musikvereins vollzog. Bei Veranstaltungen im privaten bzw. halb\xf6ffentlichen Bereich trug Josefine Fr\xf6hlich auch nach ihrer internationalen Karriere Lieder vor. Sie lebte mit ihren Schwestern in der Spiegelgasse 21, mit Franz Grillparzer im gemeinsamen Haushalt. Josefine Fr\xf6hlich wurde am Hietzinger Friedhof bestattet.','Gesellschaft der Musikfreunde Konservatorium. Im Jahr 1880 hat Gisela Frankl \u2013 Pianistin und Komponistin \u2013 hier studiert. 1881 widmete sie Kronprinz Rudolf anl\xe4sslich dessen Verm\xe4hlung mit Stephanie von Belgien die Komposition \u201eHochzeits-Hymne", die in Anwesenheit des Kronprinzen uraufgef\xfchrt wurde. Gisela Frankl, 1860 in Wien geboren, war die Tochter eines Hof- und Gerichtsadvokaten. Sie verbrachte ihre ersten Lebensjahre in der Leopoldstadt, ehe die Familie Ende der 1860er Jahre zun\xe4chst nach Oberd\xf6bling und danach in die Innere Stadt \xfcbersiedelte. Gisela Frankl z\xe4hlte zu den ersten Sch\xfclerinnen der vierklassigen "H\xf6heren Bildungsschule f\xfcr M\xe4dchen", die 1871 vom Wiener Frauen-Erwerb-Verein gegr\xfcndet worden war. Zus\xe4tzlich erhielt sie Privatunterricht in Franz\xf6sisch und Englisch. Ab dem achten Lebensjahr erhielt sie Klavierunterricht, unter anderem bei Josef Dachs, dem sie sp\xe4ter ihr Werk \u201eMazurka de Salon" op. 25 widmen sollte. Im Studienjahr 1873/1874 wurde sie am  Konservatorium der Gesellschaft der Muskfreunde in Wien als Sch\xfclerin der \u201eVorbildungsschule" im Fach Klavier gef\xfchrt. Anschlie\xdfend wechselte sie an die \u201eClavierschule Ungar", wo sie beim Direktor des Instituts, Prof. Ungar, Klavier studierte, sich auch in Kontrapunkt und Komposition ausbildete. 1880 legte sie die Staatspr\xfcfung als \u201e\xf6ffentliche Lehrerin f\xfcr Clavier und Harmonielehre" mit Auszeichnung ab und gr\xfcndete selbst ein Musikinstitut. Um das Jahr 1892 unternahm Gisela Frankl \u2013 vermutlich gemeinsam mit ihrer Schwester, der Malerin Regine Frankl \u2013 eine Tournee in Nordamerika. Ihre Werke erschienen in Folge regelm\xe4\xdfig in Druck, 1890 waren rund 50 ihrer Kompositionen bei verschiedenen Verlegern erschienen.',"Hier befand sich der Wohnort und das B\xfcro der Musikproduktionst\xe4tigkeit von Josephine Weinlich. Josephine Weinlich-Amann, geboren 1848, war Pianistin, Violinistin, Komponistin und Dirigentin. Sie gr\xfcndete in Wien Ende der 1860er Jahre das erste europ\xe4ische Damenorchester, das bis 1879 als \u201eWeinlichsches Damenorchester\u201c oder als \u201eWiener Damencapelle\u201c bekannt war. Wien erinnert sich an die Komponistin, Dirigentin, Geigerin und Orchestergr\xfcnderin. Seit 2018 gibt es in Floridsdorf die Weinlich-Amann-Gasse.","Der Gasthof zum Goldenen Lamm war Treffpunkt f\xfcr Politiker und K\xfcnstler:innen. Im Goldenen Lamm wohnte w\xe4hrend seiner Wiener Aufenthalte der tschechische Komponist Anton\xedn Dvo\u0159\xe1k \u2013 was eine Tafel auf der Stra\xdfenseite auch vermerkt. Nicht vermerkt ist: Hier lernten sich die Pianistin und Komponistin Constanze Geiger und Prinz Leopold von Sachsen-Coburg kennen. Geiger war eine von f\xfcnf Komponistinnen, die f\xfcr das Kaiserin Elisabeth Huldigungsalbum komponierten. Das Geb\xe4ude des Goldenen Lamms wurde 1760 errichtet, 1823 durch B\xfcrgermeister Josef Klee aufgestockt und erhielt sp\xe4ter eine fr\xfchhistoristische Fassade. Als sich der Besitzer entschloss, von seinem Gasthof aus Stellwagen zu betreiben, die nach Brunn am Gebirge, M\xf6dling, Eisenstadt und Hainburg abgingen, erlebte dieser Gasthof eine Bl\xfctezeit. Weltweit waren Verkehrsknotenpunkte auch Zentren der Unterhaltungsmusik. Der Erfolg veranlasste auch andere Gasth\xf6fe Stellfuhrunternehmungen ins Leben zu rufen.",'Um die Mitte des 19. Jahrhunderts entstand auf der Landstra\xdfer Hauptstra\xdfe aus zwei kleinen Gasth\xe4usern, die der Brauereibesitzer Anton Dreher senior gekauft hatte, ein vornehm ausgestattetes Gasthauslokal mit gro\xdfem Gastgarten: \u201eDrehers Etablissement". Er\xf6ffnet am 25. Dezember 1859, war es eines der gr\xf6\xdften Gastlokale Wiens. Wie \xfcblich im 19. Jahrhundert, noch bevor der Gr\xfcndung der gro\xdfen Konzertinstitutionen, gab es einen Konzert- und Tanzsaal. Hier fanden zum Beispiel die Liedertafel des Arbeiter-S\xe4ngerbundes statt oder Arbeiter-B\xe4lle. Auch \u201egro\xdfe Politik" wurde in \u201eDrehers Etablissement" gemacht: Friedrich Adler und Otto Bauer waren unter den Rednern. Nach dem Zweiten Weltkrieg wurde der Gastst\xe4ttenbetrieb einer kompletten Erneuerung unterzogen und unter dem Namen \u201eSchwechaterhof" weitergef\xfchrt. Ende der achtziger Jahre wurde der Schwechater Hof zur Galleria. Genau hier schreibt Josephine Weinlich Musikgeschichte. Sie gr\xfcndet das erste europ\xe4ische Frauenorchester und tritt mit ihren Kolleginnen in der Bierhalle von Anton Dreher auf. Seit 2018 gibt es in Floridsdorf die Weinlich-Amann-Gasse benannt nach  Josephine Amann-Weinlich, Dirigentin, Musikerin, Komponistin. Sie geh\xf6rte zu den ersten berufsm\xe4\xdfigen Geigerinnen und gr\xfcndete 1868 in Wien das erste nur aus Frauen bestehende Ensemble.','1873 spielte das Josephine Weinlich Orchester w\xe4hrend der Wiener Weltausstellung in den Blumens\xe4len der k. k. Gartenbaugesellschaft. Der Vater hatte ihr die Musik-Agentur T\xe4tigkeit in die Wiege gelegt. Dem \u201eIllustrierten Wiener Extrablatt\u201c zufolge hatte der beg\xfcterte Industrielle Franz Weinlich im Zuge der Revolution 1848 sein Verm\xf6gen verloren und sich daraufhin eine \u201eKonzession zur Leitung einer Volkss\xe4nger-Gesellschaft\u201c sowie \u201eseinen T\xf6chtern eine Lizenz zum \u201aAuftreten\u2018\u201c verschafft. Erst gr\xfcndete Josephine Weinlich ein Damenquartett, dann konnte das erste Frauenorchester Europas gebildet werden. Als \u201eWeinlichsches Damenorchester" \u201eWiener Damencapelle" oder \u201eWiener Damenorchester" unternahm es Tourneen durch \xd6sterreich-Ungarn, Italien und Deutschland bis Nordamerika und Russl\xf6and. Das Repertoire umfasste zeitgen\xf6ssische Unterhaltungsmusik wie Tanzkompositionen, Ouvert\xfcren und Opernst\xfccke. Josefine Weinlich leitete wie die Strauss-Br\xfcder das Orchester zun\xe4chst von der Violine und komponierte auch selbst.'," 23. April 1854, ein sch\xf6ner Fr\xfchlingstag um die Mittagszeit. S\xe4mtliche H\xe4user, das ganze Ufer der Donau ist an jenem Tag mit Menschen ges\xe4umt. So dicht, dass kein Verkehr mehr m\xf6glich war. Anlass war die Ankunft der zuk\xfcnftigen Kaiserin Sisi, der Braut von Franz Joseph, die mit dem Schiff aus Bayern anreiste und nun endlich Wien erreichte. Ganz Nu\xdfdorf war aus dem H\xe4uschen, Gro\xdf und Klein war auf den Beinen, ganz nach dem Motto: \u201cGemma Kaiserbraut schau\u2019n.\u201d B\xf6llersch\xfcsse k\xfcndigen das Schiff mit der herannahenden Teenager-Braut an. Musik geh\xf6rt dazu. Unter den Kompositionen, die zur allerh\xf6chsten Ankunft in Auftrag gegeben wurden, war auch Constanze Geigers kaiserlicher Verm\xe4hlungsmarsch, gewidmet Kaiserin Elisabeth. Constanze Geiger war ein Kinderstar und Wunderkind, Pianistin, Theaterschauspielerin, Komponistin und S\xe4ngerin. Die Wienerin Geiger, geboren 1835, war die Tochter des Komponisten Joseph Geiger und der Hofmodistin Theresia Geiger; sie lernte Klavier bei Johann Wenzel Tomaschek und Simon Sechter, trat bereits mit 6 Jahren erfolgreich als Konzertpianistin auf und absolvierte Gastspiele in ganz Europa. Mit 18 Jahren komponierte sie den \u201eElisabethen-Verm\xe4hlungsmarsch\u201c, der erstmals erklang am 21. April 1854 bei der Ankunft von Herzogin Elisabeth in Bayern."]),t.s)
+B.Gg=A.a(s(["Hier lebte die in Amstetten geborene Komponistin und Organistin Maria Francisca Fiederica Hofer (1894-1977). Sie war eingeladen und gef\xf6rdert von der Verlegerin und Gartenbauschul-Gr\xfcnderin Yella Hertzka. Maria Hofer studierte unter anderem bei Rudolf Dittrich, wirkte als Organistin im Wiener Stephansdom und im Dom zu Salzburg. Sie trat als Konzertpianistin, auch mit eigenen Werken, im Wiener Konzerthaus auf. Ihr Werk ist von ihrer katholischen Gl\xe4ubigkeit bestimmt wie von ihrer Virtuosit\xe4t. 1938 zog sie nach Kitzb\xfchel. Als Folge ihrer Mitarbeit in der von Yella Hertzka mitbegr\xfcndeten \u201eInternationalen Frauenliga f\xfcr Frieden und Freiheit in \xd6sterreich\u201c wurde sie mehrmals von der Gestapo verhaftet. Maria Hofer stand nach 1945 bis zu Hertzkas Tod 1948 mit ihr in engem Kontakt.","Hier wurde die Komponistin Lisa Maria Mayer 1894 geboren. Ihr Erfolg als Komponistin von \xfcber 50 Werken ist auch durch die Drucklegung bei der Universaledition dokumentiert. Als konvertierte J\xfcdin in einer Ehe mit dem Nichtjuden Josef Gaberle in Wien geduldet, war sie den Schikanen des NS-Regimes ausgesetzt, durfte weder unterrichten noch auftreten und \xfcberlebte mit schweren gesundheitlichen Beeintr\xe4chtigungen. Von 1945 bis 1948 war Lisa Maria Mayer (1894-1928) am Konservatorium der Stadt Wien angestellt. Der 1888 begr\xfcndete Club der Wiener Musikerinnen in Wien Alsergrund bot ihr zahlreiche Auftrittsm\xf6glichkeiten. Er wurde 1938 aufgel\xf6st.","Valerie Pick, verheiratete Vally Weigl (1894-1982) war eine der Absolventinnen dieser Schule, die einzige, an der eine Matura f\xfcr M\xe4dchen erlaubt war. Nach ihren Studien in Musikwissenschaft und Philosophie an der Universit\xe4t Wien nahm sie auch Kompositionsunterricht bei Karl Weigl, den sie 1921 heiratete. Sie fl\xfcchtete vor dem NS Regime in die USA, ihre Schwester K\xe4the Leichter \xfcberlebte den Holocaust nicht. Vally Weigls Verdienste sind nicht nur zahlreiche Kompositionen f\xfcr Stimme und kleinere Ensembles, sondern auch die Pionierarbeit in Musiktherapie, die sie begann, als sie selbst betroffen nach einer Schulterverletzung war.","Der Verlag, 1919 mit Hilfe von Robert Stolz gegr\xfcndet, bestand bis ins Jahr 1941. 1927 wurde hier, im Wiener Boh\xe8me Verlag, die erste und erfolgreichste Komposition der Hilda L\xf6we (1895-1976) ver\xf6ffentlicht, das Chanson Das alte Lied, das sie f\xfcr Raoul Aslan geschrieben und zu dem Fritz L\xf6hner den Text verfasst hatte. Auf Anraten des Verlags w\xe4hlte die Komponistin f\xfcr die Ver\xf6ffentlichung ein Pseudonym: Henry Love. Unter diesem Namen ver\xf6ffentlichte sie zahlreiche weitere Schlager und Chansons. Sie hatte an der Akademie f\xfcr Musik und darstellende Kunst, damals im Komplex des Wiener Konzerthauses, als Pianistin und Komponistin im Jahr 1914 mit vorz\xfcglichem Erfolg abgeschlossen. Im Wiener Konzerthaus sind zahlreiche Auftritte mit Kammermusik und Chansons dokumentiert.1934 heiratete Hilda Loewe den Wiener B\xfchnenbildner und Maler Joseph Otto Flatter, mit dem sie im selben Jahr nach Gro\xdfbritannien emigrierte.","Die T\xe4nzerin, S\xe4ngerin, Komponistin und Autorin Anita Bild, geborene Lelewer (1915-2012) maturierte am Gymnasium in der Rahlgasse. Nach ihrer Ballettausbildung am Neuen Wiener Konservatorium folgten Engagements an Theatern in Basel, Baden, Wien und Kairo sowie eine Kooperation mit dem Tenor Richard Tauber. Ihre Karriere als T\xe4nzerin wurde 1938 beendet. Sie fl\xfcchtete mit einem Domestic Permit 1939 nach England und konnte wieder als T\xe4nzerin, S\xe4ngerin und Schauspielerin arbeiten. Sie wirkte ab 1950 bei der BBC als Drehbuchautorin und als Leiterin des deutschen Senders. Sie starb 2012 in London.","Hier befand sich von Mitte der 20er Jahre bis zum Bau des Funkhauses die Sendeanlage von Radio Wien in einer ehemaligen Schule. Radio Wien sendete die Lieder der in der NS Zeit vertriebenen Komponistinnen, von Hilda L\xf6we aber auch von Harry Harald, Pseudonym von Hilda Geiringer. Diese Hilda Geiringer, geboren 1898, alias Harry Harald, ging 1938 ins Exil nach London und emigrierte 1940 weiter nach Pennsylvania, wo sie auch 1977 starb.","Camilla Frydan, eigentlich Camilla Herzl, Pseudonym Camilla Herzer (1887-1949), hatte Klavier, Harmonielehre und Komposition am Konservatorium der Gesellschaft der Musikfreunde studiert. Im Alter von f\xfcnf Jahren gab sie ihr erstes Konzert im Wiener Ehrbar-Saal. Sie wirkte als Dirigentin und S\xe4ngerin ihrer Werke, war Textdichterin und Co-Autorin des Prominenten Almanachs. Sie trat nicht nur im Etablissement Simpl auf, sondern auch im Kabarett Fledermaus, oft gemeinsam mit ihrem Schwager Egon Friedell, mit Peter Altenberg oder Alfred Polgar. Sie fl\xfcchtete 1938 ins Exil in die USA, wo sie 1945 einen eigenen Verlag gr\xfcndete.","Josefine Winter, Edle von Wigmar (1873-1943) war Malerin, Komponistin und Schriftstellerin. Nach privaten Studien wurde sie 1903 Studentin von Josef Bohuslav Foerster am Neuen Wiener Konservatorium. In erster Ehe wohnte sie hier mit Alfred Fr\xf6hlich von Feldau, in zweiter Ehe mit dem Dichter Josef von Winter. Sie komponierte vor allem Lieder. Josefine Winter von einer Sammelwohnung im zweiten Bezirk im Jahr 1942 ins KZ Theresienstadt deportiert und 1943 dort ermordet. Vertrieben aus ihrer Villa im W\xe4hringer Cottage vers\xe4umte sie die M\xf6glichkeit, die sie dank ihres Verm\xf6gens und ihres Netzwerkes gehabt h\xe4tte, ins Exil zu gehen. Sie z\xf6gerte zu lange und erlebte die Arisierung ihres Verm\xf6gens und die Deportation."]),t.s)
+B.Gh=A.a(s([1,2,4,8,16,32,64,128,27,54,108,216,171,77,154,47,94,188,99,198,151,53,106,212,179,125,250,239,197,145]),t.t)
 B.ew=new A.fi(0,100)
 B.lu=new A.fi(1,200)
 B.lv=new A.fi(2,300)
 B.lw=new A.fi(7,800)
 B.hE=new A.fi(8,900)
 B.m4=A.a(s([B.ew,B.lu,B.lv,B.m,B.Q,B.hD,B.ai,B.lw,B.hE]),A.af("B<fi>"))
-B.Gj=A.a(s(["click","scroll"]),t.s)
-B.Gl=A.a(s([0,0,32754,11263,65534,34815,65534,18431]),t.t)
-B.Gy=A.a(s([]),A.af("B<aJF>"))
-B.Gs=A.a(s([]),t.QP)
+B.Gi=A.a(s(["click","scroll"]),t.s)
+B.Gk=A.a(s([0,0,32754,11263,65534,34815,65534,18431]),t.t)
+B.Gx=A.a(s([]),A.af("B<aJF>"))
+B.Gr=A.a(s([]),t.QP)
 B.m8=A.a(s([]),A.af("B<aX6>"))
-B.Gm=A.a(s([]),A.af("B<aKV>"))
-B.Gv=A.a(s([]),t.E)
+B.Gl=A.a(s([]),A.af("B<aKV>"))
+B.Gu=A.a(s([]),t.E)
 B.m9=A.a(s([]),t.SE)
-B.Gx=A.a(s([]),t.fJ)
-B.Gq=A.a(s([]),t.ER)
+B.Gw=A.a(s([]),t.fJ)
+B.Gp=A.a(s([]),t.ER)
 B.TO=A.a(s([]),t._I)
-B.Gn=A.a(s([]),t.tc)
+B.Gm=A.a(s([]),t.tc)
 B.eE=A.a(s([]),t.jl)
 B.m7=A.a(s([]),t.wi)
-B.Go=A.a(s([]),A.af("B<avr<@>>"))
+B.Gn=A.a(s([]),A.af("B<avr<@>>"))
 B.hO=A.a(s([]),t.AO)
-B.Gr=A.a(s([]),t.D1)
+B.Gq=A.a(s([]),t.D1)
 B.hP=A.a(s([]),t.QF)
 B.m6=A.a(s([]),t.s)
 B.al=A.a(s([]),t.oU)
-B.Gu=A.a(s([]),t.Lx)
-B.Gw=A.a(s([]),t.p)
+B.Gt=A.a(s([]),t.Lx)
+B.Gv=A.a(s([]),t.p)
 B.dz=A.a(s([]),t.t)
 B.m5=A.a(s([]),t.ee)
-B.Gt=A.a(s([]),t._m)
+B.Gs=A.a(s([]),t._m)
 B.Mx=new A.eo(24,24,null,null)
 B.k3=new A.HR()
 B.c7=A.a(s([B.k3,B.k3]),A.af("B<HR>"))
 B.dA=A.a(s([619,720,127,481,931,816,813,233,566,247,985,724,205,454,863,491,741,242,949,214,733,859,335,708,621,574,73,654,730,472,419,436,278,496,867,210,399,680,480,51,878,465,811,169,869,675,611,697,867,561,862,687,507,283,482,129,807,591,733,623,150,238,59,379,684,877,625,169,643,105,170,607,520,932,727,476,693,425,174,647,73,122,335,530,442,853,695,249,445,515,909,545,703,919,874,474,882,500,594,612,641,801,220,162,819,984,589,513,495,799,161,604,958,533,221,400,386,867,600,782,382,596,414,171,516,375,682,485,911,276,98,553,163,354,666,933,424,341,533,870,227,730,475,186,263,647,537,686,600,224,469,68,770,919,190,373,294,822,808,206,184,943,795,384,383,461,404,758,839,887,715,67,618,276,204,918,873,777,604,560,951,160,578,722,79,804,96,409,713,940,652,934,970,447,318,353,859,672,112,785,645,863,803,350,139,93,354,99,820,908,609,772,154,274,580,184,79,626,630,742,653,282,762,623,680,81,927,626,789,125,411,521,938,300,821,78,343,175,128,250,170,774,972,275,999,639,495,78,352,126,857,956,358,619,580,124,737,594,701,612,669,112,134,694,363,992,809,743,168,974,944,375,748,52,600,747,642,182,862,81,344,805,988,739,511,655,814,334,249,515,897,955,664,981,649,113,974,459,893,228,433,837,553,268,926,240,102,654,459,51,686,754,806,760,493,403,415,394,687,700,946,670,656,610,738,392,760,799,887,653,978,321,576,617,626,502,894,679,243,440,680,879,194,572,640,724,926,56,204,700,707,151,457,449,797,195,791,558,945,679,297,59,87,824,713,663,412,693,342,606,134,108,571,364,631,212,174,643,304,329,343,97,430,751,497,314,983,374,822,928,140,206,73,263,980,736,876,478,430,305,170,514,364,692,829,82,855,953,676,246,369,970,294,750,807,827,150,790,288,923,804,378,215,828,592,281,565,555,710,82,896,831,547,261,524,462,293,465,502,56,661,821,976,991,658,869,905,758,745,193,768,550,608,933,378,286,215,979,792,961,61,688,793,644,986,403,106,366,905,644,372,567,466,434,645,210,389,550,919,135,780,773,635,389,707,100,626,958,165,504,920,176,193,713,857,265,203,50,668,108,645,990,626,197,510,357,358,850,858,364,936,638]),t.t)
-B.GG=A.a(s(["1190 Wien, Gymnasiumstra\xdfe 79","1090 Wien, Strudlhofstiege / Liechtensteinstrasse 51","1010 Wien, Oppolzergasse 6","1010 Wien, Graben Tuchlauben 11/Trattnerhof ","1010 Wien, Wallner Stra\xdfe 9","1010 Wien, Dr. Karl Renner-Ring 1","1030 Wien, Lothringerstrasse 20  ","1010 Wien, Musikvereinsplatz 1 "]),t.s)
+B.GF=A.a(s(["1190 Wien, Gymnasiumstra\xdfe 79","1090 Wien, Strudlhofstiege / Liechtensteinstrasse 51","1010 Wien, Oppolzergasse 6","1010 Wien, Graben Tuchlauben 11/Trattnerhof ","1010 Wien, Wallner Stra\xdfe 9","1010 Wien, Dr. Karl Renner-Ring 1","1030 Wien, Lothringerstrasse 20  ","1010 Wien, Musikvereinsplatz 1 "]),t.s)
 B.id=new A.kY(0,"off")
 B.r7=new A.kY(1,"one")
 B.Iv=new A.kY(2,"all")
-B.GH=A.a(s([B.id,B.r7,B.Iv]),A.af("B<kY>"))
+B.GG=A.a(s([B.id,B.r7,B.Iv]),A.af("B<kY>"))
 B.fs=new A.lw(0,"left")
 B.ji=new A.lw(1,"right")
 B.jj=new A.lw(3,"justify")
 B.aW=new A.lw(4,"start")
 B.jk=new A.lw(5,"end")
-B.GI=A.a(s([B.fs,B.ji,B.ec,B.jj,B.aW,B.jk]),A.af("B<lw>"))
+B.GH=A.a(s([B.fs,B.ji,B.ec,B.jj,B.aW,B.jk]),A.af("B<lw>"))
 B.t=A.a(s([1353184337,1399144830,3282310938,2522752826,3412831035,4047871263,2874735276,2466505547,1442459680,4134368941,2440481928,625738485,4242007375,3620416197,2151953702,2409849525,1230680542,1729870373,2551114309,3787521629,41234371,317738113,2744600205,3338261355,3881799427,2510066197,3950669247,3663286933,763608788,3542185048,694804553,1154009486,1787413109,2021232372,1799248025,3715217703,3058688446,397248752,1722556617,3023752829,407560035,2184256229,1613975959,1165972322,3765920945,2226023355,480281086,2485848313,1483229296,436028815,2272059028,3086515026,601060267,3791801202,1468997603,715871590,120122290,63092015,2591802758,2768779219,4068943920,2997206819,3127509762,1552029421,723308426,2461301159,4042393587,2715969870,3455375973,3586000134,526529745,2331944644,2639474228,2689987490,853641733,1978398372,971801355,2867814464,111112542,1360031421,4186579262,1023860118,2919579357,1186850381,3045938321,90031217,1876166148,4279586912,620468249,2548678102,3426959497,2006899047,3175278768,2290845959,945494503,3689859193,1191869601,3910091388,3374220536,0,2206629897,1223502642,2893025566,1316117100,4227796733,1446544655,517320253,658058550,1691946762,564550760,3511966619,976107044,2976320012,266819475,3533106868,2660342555,1338359936,2720062561,1766553434,370807324,179999714,3844776128,1138762300,488053522,185403662,2915535858,3114841645,3366526484,2233069911,1275557295,3151862254,4250959779,2670068215,3170202204,3309004356,880737115,1982415755,3703972811,1761406390,1676797112,3403428311,277177154,1076008723,538035844,2099530373,4164795346,288553390,1839278535,1261411869,4080055004,3964831245,3504587127,1813426987,2579067049,4199060497,577038663,3297574056,440397984,3626794326,4019204898,3343796615,3251714265,4272081548,906744984,3481400742,685669029,646887386,2764025151,3835509292,227702864,2613862250,1648787028,3256061430,3904428176,1593260334,4121936770,3196083615,2090061929,2838353263,3004310991,999926984,2809993232,1852021992,2075868123,158869197,4095236462,28809964,2828685187,1701746150,2129067946,147831841,3873969647,3650873274,3459673930,3557400554,3598495785,2947720241,824393514,815048134,3227951669,935087732,2798289660,2966458592,366520115,1251476721,4158319681,240176511,804688151,2379631990,1303441219,1414376140,3741619940,3820343710,461924940,3089050817,2136040774,82468509,1563790337,1937016826,776014843,1511876531,1389550482,861278441,323475053,2355222426,2047648055,2383738969,2302415851,3995576782,902390199,3991215329,1018251130,1507840668,1064563285,2043548696,3208103795,3939366739,1537932639,342834655,2262516856,2180231114,1053059257,741614648,1598071746,1925389590,203809468,2336832552,1100287487,1895934009,3736275976,2632234200,2428589668,1636092795,1890988757,1952214088,1113045200]),t.t)
+B.GN=A.a(s([u.Z,u.G,u.R,u._,u.v,u.H,u.n,"https://www.musicafeminainternational.eu/mf/demokratie/09 Musikverein.mp4"]),t.s)
 B.GP=A.a(s([0,1996959894,3993919788,2567524794,124634137,1886057615,3915621685,2657392035,249268274,2044508324,3772115230,2547177864,162941995,2125561021,3887607047,2428444049,498536548,1789927666,4089016648,2227061214,450548861,1843258603,4107580753,2211677639,325883990,1684777152,4251122042,2321926636,335633487,1661365465,4195302755,2366115317,997073096,1281953886,3579855332,2724688242,1006888145,1258607687,3524101629,2768942443,901097722,1119000684,3686517206,2898065728,853044451,1172266101,3705015759,2882616665,651767980,1373503546,3369554304,3218104598,565507253,1454621731,3485111705,3099436303,671266974,1594198024,3322730930,2970347812,795835527,1483230225,3244367275,3060149565,1994146192,31158534,2563907772,4023717930,1907459465,112637215,2680153253,3904427059,2013776290,251722036,2517215374,3775830040,2137656763,141376813,2439277719,3865271297,1802195444,476864866,2238001368,4066508878,1812370925,453092731,2181625025,4111451223,1706088902,314042704,2344532202,4240017532,1658658271,366619977,2362670323,4224994405,1303535960,984961486,2747007092,3569037538,1256170817,1037604311,2765210733,3554079995,1131014506,879679996,2909243462,3663771856,1141124467,855842277,2852801631,3708648649,1342533948,654459306,3188396048,3373015174,1466479909,544179635,3110523913,3462522015,1591671054,702138776,2966460450,3352799412,1504918807,783551873,3082640443,3233442989,3988292384,2596254646,62317068,1957810842,3939845945,2647816111,81470997,1943803523,3814918930,2489596804,225274430,2053790376,3826175755,2466906013,167816743,2097651377,4027552580,2265490386,503444072,1762050814,4150417245,2154129355,426522225,1852507879,4275313526,2312317920,282753626,1742555852,4189708143,2394877945,397917763,1622183637,3604390888,2714866558,953729732,1340076626,3518719985,2797360999,1068828381,1219638859,3624741850,2936675148,906185462,1090812512,3747672003,2825379669,829329135,1181335161,3412177804,3160834842,628085408,1382605366,3423369109,3138078467,570562233,1426400815,3317316542,2998733608,733239954,1555261956,3268935591,3050360625,752459403,1541320221,2607071920,3965973030,1969922972,40735498,2617837225,3943577151,1913087877,83908371,2512341634,3803740692,2075208622,213261112,2463272603,3855990285,2094854071,198958881,2262029012,4057260610,1759359992,534414190,2176718541,4139329115,1873836001,414664567,2282248934,4279200368,1711684554,285281116,2405801727,4167216745,1634467795,376229701,2685067896,3608007406,1308918612,956543938,2808555105,3495958263,1231636301,1047427035,2932959818,3654703836,1088359270,936918e3,2847714899,3736837829,1202900863,817233897,3183342108,3401237130,1404277552,615818150,3134207493,3453421203,1423857449,601450431,3009837614,3294710456,1567103746,711928724,3020668471,3272380065,1510334235,755167117]),t.t)
 B.eF=A.a(s([0,0,65490,45055,65535,34815,65534,18431]),t.t)
 B.dN=new A.hw(0,"controlModifier")
@@ -90070,39 +90070,39 @@ B.EU=A.a(s([4294968071,null,null,8589935155]),t.Z)
 B.EV=A.a(s([4294968072,null,null,8589935161]),t.Z)
 B.FC=A.a(s([8589934850,8589934850,8589934851,null]),t.Z)
 B.ri=new A.cr(["*",B.EY,"+",B.EZ,"-",B.F_,".",B.F0,"/",B.F1,"0",B.F2,"1",B.F3,"2",B.Fa,"3",B.Fb,"4",B.Fc,"5",B.Fd,"6",B.Fe,"7",B.Ff,"8",B.Fg,"9",B.Fh,"Alt",B.Fz,"AltGraph",B.EN,"ArrowDown",B.EO,"ArrowLeft",B.EP,"ArrowRight",B.EQ,"ArrowUp",B.ER,"Clear",B.EW,"Control",B.FA,"Delete",B.EM,"End",B.ES,"Enter",B.EL,"Home",B.ET,"Insert",B.EX,"Meta",B.FB,"PageDown",B.EU,"PageUp",B.EV,"Shift",B.FC],A.af("cr<j,A<l?>>"))
-B.GJ=A.a(s([B.mj,null,null,B.r_]),t.L)
-B.GK=A.a(s([B.qM,null,null,B.r0]),t.L)
-B.GL=A.a(s([B.qN,null,null,B.r1]),t.L)
-B.GM=A.a(s([B.qO,null,null,B.i0]),t.L)
-B.GN=A.a(s([B.qP,null,null,B.r2]),t.L)
-B.FK=A.a(s([B.qQ,null,null,B.i1]),t.L)
-B.FL=A.a(s([B.qR,null,null,B.i2]),t.L)
-B.FM=A.a(s([B.qS,null,null,B.i3]),t.L)
-B.FN=A.a(s([B.qT,null,null,B.i4]),t.L)
-B.FO=A.a(s([B.qU,null,null,B.i5]),t.L)
-B.FP=A.a(s([B.qV,null,null,B.i6]),t.L)
-B.FQ=A.a(s([B.qW,null,null,B.i7]),t.L)
-B.FR=A.a(s([B.qX,null,null,B.i8]),t.L)
+B.GI=A.a(s([B.mj,null,null,B.r_]),t.L)
+B.GJ=A.a(s([B.qM,null,null,B.r0]),t.L)
+B.GK=A.a(s([B.qN,null,null,B.r1]),t.L)
+B.GL=A.a(s([B.qO,null,null,B.i0]),t.L)
+B.GM=A.a(s([B.qP,null,null,B.r2]),t.L)
+B.FJ=A.a(s([B.qQ,null,null,B.i1]),t.L)
+B.FK=A.a(s([B.qR,null,null,B.i2]),t.L)
+B.FL=A.a(s([B.qS,null,null,B.i3]),t.L)
+B.FM=A.a(s([B.qT,null,null,B.i4]),t.L)
+B.FN=A.a(s([B.qU,null,null,B.i5]),t.L)
+B.FO=A.a(s([B.qV,null,null,B.i6]),t.L)
+B.FP=A.a(s([B.qW,null,null,B.i7]),t.L)
+B.FQ=A.a(s([B.qX,null,null,B.i8]),t.L)
 B.GX=A.a(s([B.qY,null,null,B.i9]),t.L)
 B.GY=A.a(s([B.qZ,null,null,B.ia]),t.L)
-B.GC=A.a(s([B.dI,B.dI,B.eM,null]),t.L)
+B.GB=A.a(s([B.dI,B.dI,B.eM,null]),t.L)
 B.GZ=A.a(s([B.eI,null,B.eI,null]),t.L)
-B.G1=A.a(s([B.bf,null,null,B.i3]),t.L)
-B.G2=A.a(s([B.b5,null,null,B.i5]),t.L)
-B.G3=A.a(s([B.b6,null,null,B.i7]),t.L)
-B.Gk=A.a(s([B.bg,null,null,B.i9]),t.L)
-B.Gz=A.a(s([B.hU,null,null,B.i6]),t.L)
-B.GD=A.a(s([B.dG,B.dG,B.eL,null]),t.L)
+B.G0=A.a(s([B.bf,null,null,B.i3]),t.L)
+B.G1=A.a(s([B.b5,null,null,B.i5]),t.L)
+B.G2=A.a(s([B.b6,null,null,B.i7]),t.L)
+B.Gj=A.a(s([B.bg,null,null,B.i9]),t.L)
+B.Gy=A.a(s([B.hU,null,null,B.i6]),t.L)
+B.GC=A.a(s([B.dG,B.dG,B.eL,null]),t.L)
 B.FF=A.a(s([B.aI,null,null,B.i0]),t.L)
-B.G4=A.a(s([B.c8,null,null,B.i2]),t.L)
+B.G3=A.a(s([B.c8,null,null,B.i2]),t.L)
 B.GO=A.a(s([B.eH,null,null,B.i_]),t.L)
-B.G5=A.a(s([B.c9,null,null,B.i8]),t.L)
-B.GA=A.a(s([B.hV,null,null,B.i1]),t.L)
-B.GE=A.a(s([B.dJ,B.dJ,B.eN,null]),t.L)
-B.G6=A.a(s([B.dE,null,null,B.i4]),t.L)
-B.GB=A.a(s([B.dF,null,null,B.ia]),t.L)
-B.GF=A.a(s([B.cJ,B.cJ,B.dH,null]),t.L)
-B.J1=new A.cr(["*",B.GJ,"+",B.GK,"-",B.GL,".",B.GM,"/",B.GN,"0",B.FK,"1",B.FL,"2",B.FM,"3",B.FN,"4",B.FO,"5",B.FP,"6",B.FQ,"7",B.FR,"8",B.GX,"9",B.GY,"Alt",B.GC,"AltGraph",B.GZ,"ArrowDown",B.G1,"ArrowLeft",B.G2,"ArrowRight",B.G3,"ArrowUp",B.Gk,"Clear",B.Gz,"Control",B.GD,"Delete",B.FF,"End",B.G4,"Enter",B.GO,"Home",B.G5,"Insert",B.GA,"Meta",B.GE,"PageDown",B.G6,"PageUp",B.GB,"Shift",B.GF],A.af("cr<j,A<f?>>"))
+B.G4=A.a(s([B.c9,null,null,B.i8]),t.L)
+B.Gz=A.a(s([B.hV,null,null,B.i1]),t.L)
+B.GD=A.a(s([B.dJ,B.dJ,B.eN,null]),t.L)
+B.G5=A.a(s([B.dE,null,null,B.i4]),t.L)
+B.GA=A.a(s([B.dF,null,null,B.ia]),t.L)
+B.GE=A.a(s([B.cJ,B.cJ,B.dH,null]),t.L)
+B.J1=new A.cr(["*",B.GI,"+",B.GJ,"-",B.GK,".",B.GL,"/",B.GM,"0",B.FJ,"1",B.FK,"2",B.FL,"3",B.FM,"4",B.FN,"5",B.FO,"6",B.FP,"7",B.FQ,"8",B.GX,"9",B.GY,"Alt",B.GB,"AltGraph",B.GZ,"ArrowDown",B.G0,"ArrowLeft",B.G1,"ArrowRight",B.G2,"ArrowUp",B.Gj,"Clear",B.Gy,"Control",B.GC,"Delete",B.FF,"End",B.G3,"Enter",B.GO,"Home",B.G4,"Insert",B.Gz,"Meta",B.GD,"PageDown",B.G5,"PageUp",B.GA,"Shift",B.GE],A.af("cr<j,A<f?>>"))
 B.rj=new A.tv(0,"maskModeAdd")
 B.J2=new A.tv(1,"maskModeSubstract")
 B.J3=new A.tv(2,"maskModeIntersect")
